@@ -63,7 +63,7 @@
 | 改 (Update) | 22 | 7.91% |
 | 查 (Read) | 231 | 83.09% |
 
-![难度等级分布](https://raw.githubusercontent.com/MoziaVerse/Datasets/main/excel/png/chart%20(2).png)
+[难度等级分布](https://raw.githubusercontent.com/MoziaVerse/Datasets/main/excel/png/chart%20(2).png)
 
 - **增（Create）**：包括插入新记录（如员工、反馈），占比低，反映真实场景中数据插入需求较少。
 - **删（Delete）**：涉及删除特定条件的数据（如删除低评分记录），占比适中，测试数据清洗能力。
