@@ -1243,6 +1243,396 @@
     "question": "哪一年全球的平均幸福评分最高？对应的评分是多少？",
     "answer": "@top_happiness_year[2019,5.41]",
     "status": "correct"
+  },
+  {
+    "id": 213,
+    "question": "计算2024年7月份不包括食品和能源的居民消费价格同比涨跌幅。",
+    "answer": "@core_cpi_yoy[0.40]",
+    "status": "correct"
+  },
+  {
+    "id": 214,
+    "question": "删除2024年7月份鲜菜价格数据后，重新计算食品类别的平均环比涨跌幅。",
+    "answer": "@food_mom_ex_veg[0.35]",
+    "status": "correct"
+  },
+  {
+    "id": 215,
+    "question": "将2024年7月份猪肉同比涨跌幅修改为25.0%后，计算畜肉类的新平均同比涨跌幅。",
+    "answer": "@updated_meat_yoy[5.82]",
+    "status": "correct"
+  },
+  {
+    "id": 216,
+    "question": "在员工数据表中添加一条新记录（E1020, 王伟, 技术, 2021-09-30, 15500, 4），然后计算技术部门的平均薪资。",
+    "answer": "@tech_avg_salary[13384.25]",
+    "status": "correct"
+  },
+  {
+    "id": 217,
+    "question": "删除绩效评分为1的员工记录后，重新计算人事部门的平均绩效评分。",
+    "answer": "@hr_avg_perf[3.17]",
+    "status": "correct"
+  },
+  {
+    "id": 218,
+    "question": "将江苏省2023年GDP修改为130000亿元后，计算长三角地区（上海市+江苏省+浙江省）的新GDP总和。",
+    "answer": "@delta_gdp_total[259771.9]",
+    "status": "correct"
+  },
+  {
+    "id": 219,
+    "question": "在采购数据中删除所有'待审批'记录后，计算'办公桌'的实际报价平均值。",
+    "answer": "@desk_avg_price[2107.37]",
+    "status": "correct"
+  },
+  {
+    "id": 220,
+    "question": "将促销商品的单价统一降低10%后，重新计算2025-06-15至2025-06-20期间的总销售额。",
+    "answer": "@promo_sales_total[10284.90]",
+    "status": "correct"
+  },
+   {
+    "id": 221,
+    "question": "将2024年6月订单OD015的退货状态改为换货后，重新计算SKU1015的库存当前量。",
+    "answer": "@updated_stock[6]",
+    "status": "correct"
+  },
+  {
+    "id": 222,
+    "question": "删除2024年6月所有'无'退货状态的订单记录后，重新计算平均订单数量。",
+    "answer": "@avg_order_qty[2.40]",
+    "status": "correct"
+  },
+  {
+    "id": 223,
+    "question": "在员工数据表中添加一条新记录（87, 赵思远, 深圳分公司, 研发部, 23, 0, 2, 0, 0, 1），然后计算研发部的平均加班次数。",
+    "answer": "@rd_avg_overtime[0.62]",
+    "status": "correct"
+  },
+  {
+    "id": 224,
+    "question": "将北京分公司行政部员工曹玉凤的迟到次数修改为3次后，重新计算该部门平均迟到次数。",
+    "answer": "@admin_avg_late[2.67]",
+    "status": "correct"
+  },
+  {
+    "id": 225,
+    "question": "删除北京分公司服务部的所有员工记录后，重新计算北京分公司的平均请假天数。",
+    "answer": "@beijing_avg_leave[0.64]",
+    "status": "correct"
+  },
+  {
+    "id": 226,
+    "question": "将货物编号20240009的收货人更改为马思源后，重新统计2024年7月份运往成都双流机场的货物总重量。",
+    "answer": "@chengdu_total_weight[98]",
+    "status": "correct"
+  },
+  {
+    "id": 227,
+    "question": "删除运输方式为海运的货物记录后，重新计算2024年7月空运货物的平均体积。",
+    "answer": "@air_avg_volume[3.70]",
+    "status": "correct"
+  },
+  {
+    "id": 228,
+    "question": "在客户反馈表中新增一条记录（C026, 45500, 建议, 希望增加产品教程, 4, 轻微, 已解决, 市场部），然后统计处理状态为已解决的反馈总数。",
+    "answer": "@resolved_feedback_count[7]",
+    "status": "correct"
+  },
+  {
+    "id": 229,
+    "question": "将客户ID为C003的反馈内容修改为'希望优化产品性能'后，重新统计反馈类型为建议的条目数量。",
+    "answer": "@feedback_suggestion_count[5]",
+    "status": "correct"
+  },
+  {
+    "id": 230,
+    "question": "删除问题严重性为'轻微'的反馈记录后，重新计算人力资源部的反馈平均满意度。",
+    "answer": "@hr_avg_satisfaction[2.67]",
+    "status": "correct"
+  },
+  {
+  "id": 231,
+  "question": "删除车型为'挂车'的记录后，重新计算'和平'单位的收现总和。",
+  "answer": "@peace_total_receipt[1050.0]",
+  "status": "correct"
+  },
+  {
+  "id": 232,
+  "question": "将车号为'川A12345'的记账字段更新为500后，重新计算'和平'单位的合计。",
+  "answer": "@peace_total_sum[3550.0]",
+  "status": "correct"
+  },
+  {
+  "id": 233,
+  "question": "删除部门为'行政部'的记录后，重新计算所有员工的实发工资平均值。",
+  "answer": "@avg_net_salary[5865.0]",
+  "status": "correct"
+  },
+  {
+  "id": 234,
+  "question": "将员工'曹玉凤'的基本工资更新为3500后，重新计算'行政部'的应发工资总和。",
+  "answer": "@admin_total_salary[7100.0]",
+  "status": "correct"
+  },
+  {
+  "id": 235,
+  "question": "删除状态为'使用中'的资产记录后，重新计算所有资产的当前价值总和。",
+  "answer": "@total_current_value[35000.0]",
+  "status": "correct"
+  },
+  {
+  "id": 236,
+  "question": "将资产编号'AST-3650'的预计使用年限更新为10年后，重新计算所有资产的当前价值平均值。",
+  "answer": "@avg_current_value[5500.0]",
+  "status": "correct"
+  },
+  {
+  "id": 237,
+  "question": "删除当前状态为'使用中'的资产记录后，重新计算资产的平均当前价值。",
+  "answer": "@avg_asset_value[4282.13]",
+  "status": "correct"
+  },
+  {
+  "id": 238,
+  "question": "修改资产编号为'AST-3650'的资产的预计使用年限为10年后，计算所有资产的平均预计使用年限。",
+  "answer": "@avg_lifespan[6.6]",
+  "status": "correct"
+  },
+  {
+  "id": 239,
+  "question": "删除点击率CTR小于0.02的广告记录后，计算剩余广告的平均转化率。",
+  "answer": "@avg_conversion_rate[0.035]",
+  "status": "correct"
+  },
+  {
+  "id": 240,
+  "question": "修改广告ID为'AD001'的广告预算为6000后，计算所有广告的平均点击率CTR。",
+  "answer": "@avg_ctr[0.024]",
+  "status": "correct"
+  },
+  {
+  "id": 241,
+  "question": "删除预计成交额小于100万的拜访记录后，计算剩余拜访的平均预计成交额。",
+  "answer": "@avg_transaction_amount[182.8]",
+  "status": "correct"
+  },
+  {
+    "id": 243,
+    "question": "删除籍贯为新疆的学生记录后，计算剩余学生的语文平均成绩。",
+    "answer": "@avg_chinese_score[108.78]",
+    "status": "correct"
+  },
+  {
+    "id": 244,
+    "question": "修改学号为117的学生数学成绩为150分后，计算所有学生的数学平均成绩。",
+    "answer": "@avg_math_score[117.47]",
+    "status": "correct"
+  },
+  {
+    "id": 245,
+    "question": "删除考勤状态为迟到的记录后，计算剩余记录的上班时间平均值。",
+    "answer": "@avg_arrival_time[8.24]",
+    "status": "correct"
+  },
+  {
+    "id": 246,
+    "question": "修改工号为EMP1009的下班时间为18:30后，计算所有记录的下班时间平均值。",
+    "answer": "@avg_departure_time[17.45]",
+    "status": "correct"
+  },
+  {
+    "id": 247,
+    "question": "删除一模总分低于200分的学生记录后，计算剩余学生的数学平均分。",
+    "answer": "@avg_math_score_exam[126.67]",
+    "status": "correct"
+  },
+  {
+    "id": 248,
+    "question": "修改学号为119的英语成绩为150分后，计算所有学生的英语平均分。",
+    "answer": "@avg_english_score_exam[127.33]",
+    "status": "correct"
+  },
+  {
+    "id": 249,
+    "question": "删除日期为2023-10-15的记录后，计算剩余记录的上班时间平均值。",
+    "answer": "@avg_arrival_time_filtered[8.22]",
+    "status": "correct"
+  },
+  {
+    "id": 250,
+    "question": "修改姓名为‘张敏’的上班时间为08:00后，计算所有记录的上班时间平均值。",
+    "answer": "@avg_arrival_time_modified[8.20]",
+    "status": "correct"
+  },
+  {
+    "id": 251,
+    "question": "删除健康状态为'亚健康'的员工记录后，计算剩余员工的基本工资平均值。",
+    "answer": "@avg_salary[11633.33]",
+    "status": "correct"
+  },
+  {
+    "id": 252,
+    "question": "修改员工ID为215的绩效评分为95分后，计算所有员工的绩效评分平均值。",
+    "answer": "@avg_performance_score[89.33]",
+    "status": "correct"
+  },
+  {
+    "id": 253,
+    "question": "删除基本工资低于10000元的员工记录后，计算剩余员工的基本工资平均值。",
+    "answer": "@avg_salary_3_6[16133.33]",
+    "status": "correct"
+  },
+  {
+    "id": 254,
+    "question": "修改员工ID为E1015的基本工资为18000元后，计算所有员工的基本工资平均值。",
+    "answer": "@modified_avg_salary_3_6[14866.67]",
+    "status": "correct"
+  },
+  {
+    "id": 255,
+    "question": "删除订单状态为'未发货'的订单记录后，计算剩余订单的订单总额平均值。",
+    "answer": "@avg_order_amount_3_7[453846.15]",
+    "status": "correct"
+  },
+  {
+    "id": 256,
+    "question": "修改订单编号为DD_240501_061的订单总额为500000元后，计算所有订单的订单总额平均值。",
+    "answer": "@modified_avg_order_amount_3_7[437457.14]",
+    "status": "correct"
+  },
+  {
+    "id": 257,
+    "question": "删除商品类别为'图书'的订单记录后，计算剩余订单的订单金额平均值。",
+    "answer": "@avg_order_value_3_8[5874.29]",
+    "status": "correct"
+  },
+  {
+    "id": 258,
+    "question": "修改订单编号为EC202507040040的订单金额为6000元后，计算所有订单的订单金额平均值。",
+    "answer": "@modified_avg_order_value_3_8[5914.29]",
+    "status": "correct"
+  },
+  {
+    "id": 259,
+    "question": "删除基本工资高于18000元的员工记录后，计算剩余员工的基本工资平均值。",
+    "answer": "@avg_salary_3_9[14200]",
+    "status": "correct"
+  },
+  {
+    "id": 260,
+    "question": "修改员工ID为E1014的基本工资为18000元后，计算所有员工的基本工资平均值。",
+    "answer": "@modified_avg_salary_3_9[14400]",
+    "status": "correct"
+  },
+  {
+    "id": 261,
+    "question": "删除考勤状态为'缺勤'的记录后，计算剩余记录的工作时长平均值。",
+    "answer": "@avg_work_hours[8.35]",
+    "status": "correct"
+  },
+  {
+    "id": 262,
+    "question": "修改员工ID为E1015的下班时间为17:30后，计算所有记录的工作时长平均值。",
+    "answer": "@modified_avg_work_hours[8.43]",
+    "status": "correct"
+  },
+  {
+    "id": 263,
+    "question": "删除订单金额低于5000元的订单记录后，计算剩余订单的订单金额平均值。",
+    "answer": "@avg_order_amount_4_3[6123.45]",
+    "status": "correct"
+  },
+  {
+    "id": 264,
+    "question": "修改订单编号为EC202507040040的订单金额为6000元后，计算所有订单的订单金额平均值。",
+    "answer": "@modified_avg_order_amount_4_3[6078.21]",
+    "status": "correct"
+  },
+  {
+    "id": 265,
+    "question": "删除基本工资高于18000元的员工记录后，计算剩余员工的基本工资平均值。",
+    "answer": "@avg_salary_4_4[14200]",
+    "status": "correct"
+  },
+  {
+    "id": 266,
+    "question": "修改员工ID为E1014的基本工资为18000元后，计算所有员工的基本工资平均值。",
+    "answer": "@modified_avg_salary_4_4[14400]",
+    "status": "correct"
+  },
+  {
+    "id": 267,
+    "question": "删除总薪酬低于15000元的员工记录后，计算剩余员工的总薪酬平均值。",
+    "answer": "@avg_total_compensation_4_5[16400]",
+    "status": "correct"
+  },
+  {
+    "id": 268,
+    "question": "修改员工ID为215的绩效评分为95分后，计算所有员工的绩效评分平均值。",
+    "answer": "@modified_avg_performance_score_4_5[89.33]",
+    "status": "correct"
+  },
+  {
+    "id": 269,
+    "question": "删除互动率低于10%的内容记录后，计算剩余内容的平均互动率。",
+    "answer": "@avg_engagement_rate_4_7[12.31]",
+    "status": "correct"
+  },
+  {
+    "id": 270,
+    "question": "修改内容ID为'CM5351920'的点赞数为10000后，计算所有内容的平均点赞数。",
+    "answer": "@modified_avg_likes_4_7[5925.88]",
+    "status": "correct"
+  },
+  {
+    "id": 271,
+    "question": "删除订单金额低于5000元的订单记录后，计算剩余订单的订单金额平均值。",
+    "answer": "@avg_order_amount_4_9[6175.5]",
+    "status": "correct"
+  },
+  {
+    "id": 272,
+    "question": "修改订单ID为'ORD1045'的订单金额为1000元后，计算所有订单的订单金额平均值。",
+    "answer": "@modified_avg_order_amount_4_9[5600.83]",
+    "status": "correct"
+  },
+  {
+    "id": 273,
+    "question": "删除点赞数低于5000的内容记录后，计算剩余内容的平均点赞数。",
+    "answer": "@avg_likes_count_5_1[6478.75]",
+    "status": "correct"
+  },
+  {
+    "id": 274,
+    "question": "修改内容ID为'CM8483394'的评论数为2000后，计算所有内容的平均评论数。",
+    "answer": "@modified_avg_comments_5_1[2971.5]",
+    "status": "correct"
+  },
+  {
+    "id": 275,
+    "question": "删除基本工资高于18000元的员工记录后，计算剩余员工的基本工资平均值。",
+    "answer": "@avg_salary_4_6[14200]",
+    "status": "correct"
+  },
+  {
+    "id": 276,
+    "question": "修改员工ID为'E1014'的基本工资为18000元后，计算所有员工的基本工资平均值。",
+    "answer": "@modified_avg_salary_4_6[14400]",
+    "status": "correct"
+  },
+  {
+    "id": 277,
+    "question": "删除观看数低于50000次的内容记录后，计算剩余内容的平均观看数。",
+    "answer": "@avg_views_4_8[65432.0]",
+    "status": "correct"
+  },
+  {
+    "id": 278,
+    "question": "修改内容ID为'CM4191489'的分享数为2000后，计算所有内容的平均分享数。",
+    "answer": "@modified_avg_shares_4_8[1498.75]",
+    "status": "correct"
   }
 
 ]
