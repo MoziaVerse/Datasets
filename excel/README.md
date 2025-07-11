@@ -63,7 +63,7 @@
 | 改 (Update) | 22 | 7.91% |
 | 查 (Read) | 231 | 83.09% |
 
-[难度等级分布](https://raw.githubusercontent.com/MoziaVerse/Datasets/main/excel/png/chart%20(2).png)
+![](./png/chart.png)
 
 - **增（Create）**：包括插入新记录（如员工、反馈），占比低，反映真实场景中数据插入需求较少。
 - **删（Delete）**：涉及删除特定条件的数据（如删除低评分记录），占比适中，测试数据清洗能力。
@@ -90,6 +90,8 @@
 | Data Modification | 22 | 7.91% |
 | Time Series | 5 | 1.80% |
 
+![](./png/chart%20(1).png)
+
 - **Summary Statistics**：如平均值、中位数，占比最高，反映基础统计分析需求。
 - **Filtering**：筛选特定条件的数据，占比高，测试条件查询能力。
 - **Max/Min/Lookup**：查找最大/最小值或对应记录，常见于排行榜场景。
@@ -106,6 +108,9 @@
 | Easy | 152 | 54.68% |
 | Medium | 121 | 43.53% |
 | Hard | 5 | 1.80% |
+
+![](./png/chart%20(2).png)
+
 
 - **Easy**：以简单统计、计数、最大/最小值查找为主，适合初学者。
 - **Medium**：涉及分组、过滤、时间序列等复杂操作，适合中级用户。
