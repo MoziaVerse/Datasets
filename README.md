@@ -5,10 +5,9 @@
 ## 目录
 
 1. [什么是数据集？](#什么是数据集)
-2. [数据集列表](#数据集列表)
-3. [如何使用本资源库](#如何使用本资源库)
-4. [常见练习问题](#常见练习问题)
-5. [总结](#总结)
+2. [如何使用本资源库](#如何使用本资源库)
+3. [常见练习问题](#常见练习问题)
+4. [总结](#总结)
 
 ## 什么是数据集？
 
@@ -17,35 +16,6 @@
 - **CSV**：轻量级格式，易于跨平台共享，兼容多种数据分析工具（如 Python、R）。
 - **未来扩展**：我们计划引入更多格式，涵盖更多场景。
 
-
-## 数据集列表
-
-以下是当前资源库中的数据集，存储在 `excel/` 文件夹中，包含 63 个文件（62 个 Excel 文件和 1 个 CSV 文件）：
-1. `1-1.xlsx` 至 `1-9.xlsx`
-2. `2-1.xlsx` 至 `2-9.xlsx`
-3. `3-1.xlsx` 至 `3-9.xlsx`
-4. `4-1.xlsx` 至 `4-9.xlsx`
-5. `5-1.xlsx` 至 `5-3.xlsx`
-6. `2015.xlsx`, `2016.xlsx`, `2017.xlsx`, `2018.xlsx`, `2019.xlsx`
-7. `adult.xlsx`
-8. `Amazon.xlsx`
-9. `Apple.xlsx`
-10. `avocado.xlsx`
-11. `bank-additional-full.xlsx`
-12. `bestsellers-with-categories.xlsx`
-13. `boston.xlsx`
-14. `Facebook.xlsx`
-15. `Google.xlsx`
-16. `loan_defaults.csv`
-17. `Netflix.xlsx`
-18. `online_shoppers_intention.xlsx`
-19. `SuperStoreUS-2015.xlsx`
-20. `Titanic.xlsx`
-21. `winequality-red.xlsx`
-22. `winequality-white.xlsx`
-23. `WorldCupMatches.xlsx`
-24. `WorldCupPlayers.xlsx`
-25. `WorldCups.xlsx`
 
 
 ## 如何使用本资源库
