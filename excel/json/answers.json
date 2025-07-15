@@ -2,7 +2,7 @@
   {
     "id": 0,
     "question": "计算2024年7月份居民消费价格的平均同比涨跌幅。",
-    "answer": "@mean_yoy_change[0.20]",
+    "answer": "@mean_yoy_change[0.50]",
     "status": "correct"
   },
   {
