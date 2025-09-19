@@ -1,1962 +1,1983 @@
 [
   {
     "id": 1,
-    "question": "财务部门员工的总数是多少？",
-    "concepts": ["计数"],
-    "file_name": "1-2.xlsx",
-    "answer": "3"
-  },
-  {
-    "id": 2,
-    "question": "计算人事部门员工的平均绩效评分。",
-    "concepts": ["求均值"],
-    "file_name": "1-2.xlsx",
-    "answer": "2.6"
-  },
-  {
-    "id": 3,
-    "question": "计算2023年所有地区的平均收入。",
-    "concepts": ["求均值"],
-    "file_name": "1-3.xlsx",
-    "answer": "40352.64"
-  },
-  {
-    "id": 4,
-    "question": "计算所有销售记录的总销售金额。",
-    "concepts": ["求和"],
-    "file_name": "1-4.xlsx",
-    "answer": "121332.45"
-  },
-  {
-    "id": 5,
-    "question": "促销销售的平均销售金额是多少？",
-    "concepts": ["求均值"],
-    "file_name": "1-4.xlsx",
-    "answer": "4044.42"
-  },
-  {
-    "id": 6,
-    "question": "非促销情况下的总销售量是多少？",
-    "concepts": ["求和"],
-    "file_name": "1-4.xlsx",
-    "answer": "639"
-  },
-  {
-    "id": 7,
-    "question": "所有物品的平均实际报价是多少？",
-    "concepts": ["求均值"],
-    "file_name": "1-5.xlsx",
-    "answer": "2756.75"
-  },
-  {
-    "id": 8,
-    "question": "有多少申请单的实际报价高于预算？",
-    "concepts": ["计数"],
-    "file_name": "1-5.xlsx",
-    "answer": "12"
-  },
-  {
-    "id": 9,
-    "question": "京东提供的最贵商品的实际报价是多少？",
-    "concepts": ["求最大值"],
-    "file_name": "1-5.xlsx",
-    "answer": "2523.47"
-  },
-  {
-    "id": 10,
-    "question": "所有已批准申请的总预算是多少？",
-    "concepts": ["求和"],
-    "file_name": "1-5.xlsx",
-    "answer": "24200"
-  },
-  {
-    "id": 11,
-    "question": "所有员工的加班总天数是多少？",
-    "concepts": ["求和"],
-    "file_name": "1-6.xlsx",
-    "answer": "41"
-  },
-  {
-    "id": 12,
-    "question": "北京分公司的员工总迟到次数是多少？",
-    "concepts": ["求和"],
-    "file_name": "1-6.xlsx",
-    "answer": "51"
-  },
-  {
-    "id": 13,
-    "question": "有多少员工请了假（请假天数不为0）？",
-    "concepts": ["计数"],
-    "file_name": "1-6.xlsx",
-    "answer": "10"
-  },
-  {
-    "id": 14,
-    "question": "一共收到了多少条‘严重’的问题反馈？",
-    "concepts": ["计数"],
-    "file_name": "1-7.xlsx",
-    "answer": "8"
-  },
-  {
-    "id": 15,
-    "question": "客户的平均满意度是多少？",
-    "concepts": ["求均值"],
-    "file_name": "1-7.xlsx",
-    "answer": "3.2"
-  },
-  {
-    "id": 16,
-    "question": "‘物流部’负责处理了多少条客户反馈？",
-    "concepts": ["计数"],
-    "file_name": "1-7.xlsx",
-    "answer": "3"
-  },
-  {
-    "id": 17,
-    "question": "所有月份的访问人气总和是多少？",
-    "concepts": ["求和"],
-    "file_name": "1-8.xlsx",
-    "answer": "40988336"
-  },
-  {
-    "id": 18,
-    "question": "平均收藏人气是多少？",
-    "concepts": ["求均值"],
-    "file_name": "1-8.xlsx",
-    "answer": "639653.92"
-  },
-  {
-    "id": 19,
-    "question": "计算浏览热度的平均值（保留两位小数）。",
-    "concepts": ["求均值"],
-    "file_name": "1-8.xlsx",
-    "answer": "10302048.67"
-  },
-  {
-    "id": 20,
-    "question": "所有货物的总重量是多少（千克）？",
-    "concepts": ["求和"],
-    "file_name": "1-9.xlsx",
-    "answer": "2534"
-  },
-  {
-    "id": 21,
-    "question": "使用空运运输的货物有多少件？",
-    "concepts": ["计数"],
-    "file_name": "1-9.xlsx",
-    "answer": "8"
-  },
-  {
-    "id": 22,
-    "question": "当前状态为“已签收”的货物数量是多少？",
-    "concepts": ["计数"],
-    "file_name": "1-9.xlsx",
-    "answer": "4"
-  },
-  {
-    "id": 23,
-    "question": "查询'衬衫'产品的总订单数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "2-1.xlsx",
-    "answer": "2"
-  },
-  {
-    "id": 24,
-    "question": "查询小客车型的总收现金额。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "2-3.xlsx",
-    "answer": "5150"
-  },
-  {
-    "id": 25,
-    "question": "查询11.12日的总收现金额。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "2-3.xlsx",
-    "answer": "3560"
-  },
-  {
-    "id": 26,
-    "question": "查询挂车车型的总收现金额。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "2-3.xlsx",
-    "answer": "4830"
-  },
-  {
-    "id": 27,
-    "question": "查询社会保险为420的所有员工姓名和部门。",
-    "concepts": ["筛选"],
-    "file_name": "2-4.xlsx",
-    "answer": "曹玉凤（行政部）、陈虹（行政部）、严嘉（财务部）、李大芬（财务部）、康蓓（后勤部）、孔香秀（后勤部）、周南莲（人力资源部）、金明露（人力资源部）、孙翠花（人力资源部）、秦灿灿（生产部）、沈倩（生产部）、朱秀娟（技术部）、金昌菊（技术部）、严绮菱（营销部）、孔光琴（营销部）、沈菁（营销部）、卫妹妹（销售部）、钱静雯（销售部）、许银姣（销售部）、蒋凌旋（行政部）、孔莎（行政部）、周嘎妹（财务部）、施柔（财务部）、许翠翠（后勤部）、尤眉（后勤部）、魏晶（人力资源部）、郎园（人力资源部）、郑成倩（人力资源部）、冯婷婷（生产部）、周文涛（生产部）、吕丹（技术部）、张梅香（技术部）、王元珊（营销部）、吴鑫月（营销部）、陈敏（营销部）、孔瑞（销售部）、孙香秀（销售部）、李大秀（销售部）"
-  },
-  {
-    "id": 28,
-    "question": "查询状态为'使用中'的资产总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "2-5.xlsx",
-    "answer": "14"
-  },
-  {
-    "id": 29,
-    "question": "查询办公桌类资产的平均当前价值。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "2-5.xlsx",
-    "answer": "5278.69"
-  },
-  {
-    "id": 30,
-    "question": "查询2024年投放的所有广告的预算总和。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "2-6.xlsx",
-    "answer": "63000"
-  },
-  {
-    "id": 31,
-    "question": "查询周一预约的会议室总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "2-7.xlsx",
-    "answer": "7"
-  },
-  {
-    "id": 32,
-    "question": "查询在岗状态为'出差'的员工总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "2-9.xlsx",
-    "answer": "5"
-  },
-  {
-    "id": 33,
-    "question": "查询部门'人事处'的平均总薪资。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "2-9.xlsx",
-    "answer": "10561.003"
-  },
-  {
-    "id": 34,
-    "question": "查询资产名称为'办公电脑'的总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-1.xlsx",
-    "answer": "8"
-  },
-  {
-    "id": 35,
-    "question": "查询所属院系为'文学院'的教职工总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-1.xlsx",
-    "answer": "8"
-  },
-  {
-    "id": 36,
-    "question": "查询作文得分最高的学生学号和班级。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "3-3.xlsx",
-    "answer": "202, 二班"
-  },
-  {
-    "id": 37,
-    "question": "查询'二班'学生的平均一模总分。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-3.xlsx",
-    "answer": "370.33"
-  },
-  {
-    "id": 38,
-    "question": "查询10月15日之后考勤状态为'正常'的员工总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-4.xlsx",
-    "answer": "14"
-  },
-  {
-    "id": 39,
-    "question": "查询10月份考勤状态为'迟到'的员工总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-4.xlsx",
-    "answer": "5"
-  },
-  {
-    "id": 40,
-    "question": "查询上班时间在08:00-08:30之间的员工人数。",
-    "concepts": ["筛选"],
-    "file_name": "3-4.xlsx",
-    "answer": "25"
-  },
-  {
-    "id": 41,
-    "question": "查询出勤率大于95%的员工总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-5.xlsx",
-    "answer": "13"
-  },
-  {
-    "id": 42,
-    "question": "查询离职状态为'未离职'且健康状态为'健康'的员工总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-5.xlsx",
-    "answer": "20"
-  },
-  {
-    "id": 43,
-    "question": "查询第二季度办公费用总和。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-6.xlsx",
-    "answer": "62"
-  },
-  {
-    "id": 44,
-    "question": "查询第三季度市场费用总和。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-6.xlsx",
-    "answer": "118"
-  },
-  {
-    "id": 45,
-    "question": "查询第四季度销售费用总和。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-6.xlsx",
-    "answer": "369"
-  },
-  {
-    "id": 46,
-    "question": "查询第一季度人力费用总和。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-6.xlsx",
-    "answer": "152"
-  },
-  {
-    "id": 47,
-    "question": "查询产品费用在第二季度的总和。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-6.xlsx",
-    "answer": "89"
-  },
-  {
-    "id": 48,
-    "question": "查询交货日期在6月1日之后的订单总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-7.xlsx",
-    "answer": "34"
-  },
-  {
-    "id": 49,
-    "question": "查询交货日期在5月15日之前的订单总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-8.xlsx",
-    "answer": "14"
-  },
-  {
-    "id": 50,
-    "question": "查询状态为'取消'的航班数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "4-1.xlsx",
-    "answer": "5"
-  },
-  {
-    "id": 51,
-    "question": "查询6月15日之后考勤状态为'正常'的员工总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "4-2.xlsx",
-    "answer": "3"
-  },
-  {
-    "id": 52,
-    "question": "查询6月份考勤状态为'缺勤'的员工总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "4-2.xlsx",
-    "answer": "8"
-  },
-  {
-    "id": 53,
-    "question": "查询是否医保为'是'的患者总数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "4-5.xlsx",
-    "answer": "29"
-  },
-  {
-    "id": 54,
-    "question": "查询国家/地区为'印度'的电影总票房。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "4-6.xlsx",
-    "answer": "162763.79"
-  },
-  {
-    "id": 55,
-    "question": "查询国家/地区为'美国'的电影平均评分。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "4-6.xlsx",
-    "answer": "7.03"
-  },
-  {
-    "id": 56,
-    "question": "查询当前价格高于交易价格的交易数量。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "5-2.xlsx",
-    "answer": "28"
-  },
-  {
-    "id": 57,
-    "question": "查询一班学生的平均总分。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "5-3.xlsx",
-    "answer": "427.83"
-  },
-  {
-    "id": 58,
     "question": "计算所有人事部门员工的平均薪资。",
     "concepts": ["求均值"],
     "file_name": "1-2.xlsx",
     "answer": "13882.87"
   },
   {
-    "id": 59,
+    "id": 2,
+    "question": "财务部门员工的总数是多少？",
+    "concepts": ["计数"],
+    "file_name": "1-2.xlsx",
+    "answer": "3"
+  },
+  {
+    "id": 3,
     "question": "查找薪资最高的员工。",
     "concepts": ["求最大值"],
     "file_name": "1-2.xlsx",
     "answer": "李洋"
   },
   {
-    "id": 60,
+    "id": 4,
+    "question": "计算人事部门员工的平均绩效评分。",
+    "concepts": ["求均值"],
+    "file_name": "1-2.xlsx",
+    "answer": "2.6"
+  },
+  {
+    "id": 5,
     "question": "查询人事部门员工的姓名和薪资。",
     "concepts": ["筛选"],
     "file_name": "1-2.xlsx",
     "answer": "黄洋, 16716.48; 陈丽, 7028.23; 杨秀英, 16297.86; 张霞, 16004.81; 赵娟, 13366.99"
   },
   {
-    "id": 61,
+    "id": 6,
     "question": "查询财务部门中薪资高于16000的员工信息。",
     "concepts": ["筛选"],
     "file_name": "1-2.xlsx",
     "answer": "张磊, 财务部门, 17643.79"
   },
   {
-    "id": 62,
+    "id": 7,
     "question": "查询绩效评分为5的技术部门员工姓名。",
     "concepts": ["筛选"],
     "file_name": "1-2.xlsx",
     "answer": "张静, 黄静"
   },
   {
-    "id": 63,
+    "id": 8,
     "question": "查询所有员工中，入职日期在2020年的员工姓名。",
     "concepts": ["筛选"],
     "file_name": "1-2.xlsx",
     "answer": "刘超, 黄洋, 陈丽, 杨秀英, 张霞, 周洋, 王强, 刘艳, 赵芳, 张静, 张磊, 黄静"
   },
   {
-    "id": 64,
-    "question": "找出2023年收入最高的地区。",
-    "concepts": ["求最大值"],
-    "file_name": "1-3.xlsx",
-    "answer": "广东省"
-  },
-  {
-    "id": 65,
-    "question": "查询2023年GDP超过100000亿元的省份及其GDP。",
-    "concepts": ["筛选"],
-    "file_name": "1-3.xlsx",
-    "answer": "江苏省, 128222.2; 广东省, 135673.2"
-  },
-  {
-    "id": 66,
-    "question": "查询北京市2014年至2023年的GDP数据。",
-    "concepts": ["筛选"],
-    "file_name": "1-3.xlsx",
-    "answer": "22926, 24779.1, 27041.2, 29883, 33106, 35445.1, 35943.3, 41045.6, 41540.9, 43760.7"
-  },
-  {
-    "id": 67,
-    "question": "哪个产品ID的总销售金额最高？",
-    "concepts": ["求最大值"],
-    "file_name": "1-4.xlsx",
-    "answer": "P1466"
-  },
-  {
-    "id": 68,
-    "question": "查询来自京东的供应商的所有采购物品名称和预算。",
-    "concepts": ["筛选"],
-    "file_name": "1-5.xlsx",
-    "answer": "打印机, 800; 办公桌, 2000;"
-  },
-  {
-    "id": 69,
-    "question": "销售部中哪位员工的旷工次数最多？",
-    "concepts": ["求最大值"],
-    "file_name": "1-6.xlsx",
-    "answer": "施丽"
-  },
-  {
-    "id": 70,
-    "question": "查询北京分公司行政部中迟到次数大于5次的员工姓名。",
-    "concepts": ["筛选"],
-    "file_name": "1-6.xlsx",
-    "answer": "李大芬"
-  },
-  {
-    "id": 71,
-    "question": "所有状态为‘待处理’的反馈中，满意度最低的是哪位客户？",
-    "concepts": ["求最小值"],
-    "file_name": "1-7.xlsx",
-    "answer": "C004"
-  },
-  {
-    "id": 72,
-    "question": "查询客户满意度低于3且问题严重性为“严重”的反馈内容。",
-    "concepts": ["筛选"],
-    "file_name": "1-7.xlsx",
-    "answer": "产品操作界面不友好, 产品使用中出现故障,产品功能不符合预期"
-  },
-  {
-    "id": 73,
-    "question": "查询所有“建议”类型的反馈内容。",
-    "concepts": ["筛选"],
-    "file_name": "1-7.xlsx",
-    "answer": "增加更多产品选项, 希望提供更多教程, 客户希望增加新功能"
-  },
-  {
-    "id": 74,
-    "question": "哪一个月份的浏览热度最高？",
-    "concepts": ["求最大值"],
-    "file_name": "1-8.xlsx",
-    "answer": "2023年10月"
-  },
-  {
-    "id": 75,
-    "question": "哪一个月份的加购热度最低？",
-    "concepts": ["求最小值"],
-    "file_name": "1-8.xlsx",
-    "answer": "2023年7月"
-  },
-  {
-    "id": 76,
-    "question": "查询加购热度大于2500000的月份。",
-    "concepts": ["筛选"],
-    "file_name": "1-8.xlsx",
-    "answer": "2023年10月,2023年11月"
-  },
-  {
-    "id": 77,
-    "question": "统计访问人气超过3500000的月份数量。",
-    "concepts": ["筛选", "计数"],
-    "file_name": "1-8.xlsx",
-    "answer": "2"
-  },
-  {
-    "id": 78,
-    "question": "哪位收货人接收了重量最大的货物？",
-    "concepts": ["求最大值"],
-    "file_name": "1-9.xlsx",
-    "answer": "马思琪"
-  },
-  {
-    "id": 79,
-    "question": "查询运输方式为“空运”且状态为“运输中”的货物编号和收货人。",
-    "concepts": ["筛选"],
-    "file_name": "1-9.xlsx",
-    "answer": "20240001, 王纯纯; 20240012, 马思远; 20240018, 马思哲; 20240021, 马思宇"
-  },
-  {
-    "id": 80,
-    "question": "查询重量超过200千克的货物描述和运输方式。",
-    "concepts": ["筛选"],
-    "file_name": "1-9.xlsx",
-    "answer": "家具, 海运; 汽车零部件, 陆运;书籍,铁路运输; 家用电器, 陆运"
-  },
-  {
-    "id": 81,
-    "question": "查询问题/备注中包含“需保险”的货物编号和发货人。",
-    "concepts": ["筛选"],
-    "file_name": "1-9.xlsx",
-    "answer": "20240001, 张三; 20240002, 李四; 20240004, 赵六; 20240025, 马欣欣"
-  },
-  {
-    "id": 82,
-    "question": "查询货物描述为“电子产品”且重量小于30千克的货物编号和收货人。",
-    "concepts": ["筛选"],
-    "file_name": "1-9.xlsx",
-    "answer": "20240002, 王小刚; 20240010, 马思纯; 20240025, 马思斯"
-  },
-  {
-    "id": 83,
-    "question": "查询退货原因中'质量问题'的所有产品名称和订单数量。",
-    "concepts": ["筛选"],
-    "file_name": "2-1.xlsx",
-    "answer": "牛仔裤, 3; 凉鞋, 2; 帽子, 1;"
-  },
-  {
-    "id": 84,
-    "question": "查询订单数量大于等于3的产品名称和订单数量。",
-    "concepts": ["筛选"],
-    "file_name": "2-1.xlsx",
-    "answer": "牛仔裤, 3; 运动裤, 4; 运动鞋, 3;裙子, 5; 泳衣, 6; 手套, 3; 领带, 4; 袜子, 3; 运动鞋, 4; 袜子, 3;"
-  },
-  {
-    "id": 85,
-    "question": "查询库存当前量小于10的产品名称和库存当前量。",
-    "concepts": ["筛选"],
-    "file_name": "2-1.xlsx",
-    "answer": "裙子, 5; 运动裤, 5; 太阳镜, 8; 运动裤, 1; 领带, 9;"
-  },
-  {
-    "id": 86,
-    "question": "查询退货原因中'尺寸不符'的所有产品名称和客户名称。",
-    "concepts": ["筛选"],
-    "file_name": "2-1.xlsx",
-    "answer": "衬衫, 王涵; 领带, 钱军; 袜子, 周民生;"
-  },
-  {
-    "id": 87,
-    "question": "查询得分大于85分的学生姓名和班级排名。",
-    "concepts": ["筛选"],
-    "file_name": "2-2.xlsx",
-    "answer": "曹玉凤, 1; 陈虹, 2; 严嘉, 2; 李大芬, 4; 康蓓, 5;"
-  },
-  {
-    "id": 88,
-    "question": "查询单位为'和平'的挂车的车型和总收现金额。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "2-3.xlsx",
-    "answer": "挂车, 2170;"
-  },
-  {
-    "id": 89,
-    "question": "查询日期为11.1的所有车型和收现金额。",
-    "concepts": ["筛选"],
-    "file_name": "2-3.xlsx",
-    "answer": "挂车, 350; 小货, 390; 挂车, 350; 小客, 140; 挂车, 350; 挂车, 350; 小货, 390; 小货, 390; 小客, 140; 小货, 390; 大客, 320;"
-  },
-  {
-    "id": 90,
-    "question": "查询部门为'销售部'的所有员工姓名和实发工资。",
-    "concepts": ["筛选"],
-    "file_name": "2-4.xlsx",
-    "answer": "卫妹妹, 8330.00; 钱静雯, 8350.00; 许银姣, 8750.00; 孔瑞, 8330.00; 孙香秀, 8350.00; 李大秀, 8750.00;"
-  },
-  {
-    "id": 91,
-    "question": "查询实发工资大于8000的员工姓名和部门。",
-    "concepts": ["筛选"],
-    "file_name": "2-4.xlsx",
-    "answer": "卫妹妹, 销售部; 钱静雯, 销售部; 许银姣, 销售部; 孔瑞, 销售部; 孙香秀, 销售部; 李大秀, 销售部;"
-  },
-  {
-    "id": 92,
-    "question": "查询状态为'闲置'的所有资产名称和当前价值。",
-    "concepts": ["筛选"],
-    "file_name": "2-5.xlsx",
-    "answer": "办公桌, 4387.86; 笔记本, 5739.89; 打印机, 4652.18; 办公桌, 3867.64; 办公桌, 8241.75; 笔记本, 9872.34; 笔记本, 5367.79; 办公桌, 4038.54; 打印机, 6081.1; 办公桌, 2118.21;"
-  },
-  {
-    "id": 93,
-    "question": "查询购入日期为2020年的所有资产名称和当前价值。",
-    "concepts": ["筛选"],
-    "file_name": "2-5.xlsx",
-    "answer": "笔记本, 5951.01; 办公桌, 5138.31; 打印机, 9673.12; 笔记本, 5242; 打印机, 1701.39; 办公桌, 4387.86; 笔记本, 5739.89; 办公桌, 8420.78; 打印机, 4652.18; 笔记本, 3008.49; 打印机, 1692.29; 办公桌, 3867.64;"
-  },
-  {
-    "id": 94,
-    "question": "查询当前价值最高的资产名称。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "2-5.xlsx",
-    "answer": "笔记本"
-  },
-  {
-    "id": 95,
-    "question": "查询预计使用年限为8年的所有资产名称和当前价值。",
-    "concepts": ["筛选"],
-    "file_name": "2-5.xlsx",
-    "answer": "笔记本, 9872.34; 打印机, 9673.12; 办公桌, 8241.75; 打印机, 6081.1; 笔记本, 5951.01; 笔记本, 5739.89; 笔记本, 5445.02, 笔记本, 5367.79, 笔记本, 4783.33; 打印机, 4652.18; 办公桌, 4038.54; 办公桌, 3899.05; 办公桌, 3785.02; 办公桌, 3675.01; 办公桌, 3575.01; 办公桌, 3475.01; 办公桌, 3375.01; 办公桌, 3275.01; 办公桌, 3175.01; 办公桌, 3867.64; 打印机, 2884.26; 办公桌, 2118.21;"
-  },
-  {
-    "id": 96,
-    "question": "查询投放平台为'微信'的所有广告名称和预算。",
-    "concepts": ["筛选"],
-    "file_name": "2-6.xlsx",
-    "answer": "夏季促销, 5000; 春季新品发布, 3500; 秋季美食节, 3600; 情人节礼物, 4700;"
-  },
-  {
-    "id": 97,
-    "question": "查询成本每点击CPC低于0.5的所有广告名称和投放平台。",
-    "concepts": ["筛选"],
-    "file_name": "2-6.xlsx",
-    "answer": "黑色星期五, 斗鱼直播; 圣诞狂欢, 爱奇艺; 春节特惠, 抖音; 秋季新品, 百度; "
-  },
-  {
-    "id": 98,
-    "question": "查询点击率CTR大于0.03的所有广告名称和投放日期。",
-    "concepts": ["筛选"],
-    "file_name": "2-6.xlsx",
-    "answer": "春节团圆, 2025-02-10至2025-02-20; 黑色星期五, 2025-11-24至2025-11-27; 春节特惠, 2024-12-01至2024-12-31; 春节红包, 2026-01-21至2026-02-19; 节日优惠, 2024-09-01至2024-09-30; 感恩节礼物, 2025-11-01至2025-11-30; 夏季泳装, 2024-04-01至2024-04-30; 夏季音乐节, 2026-06-01至2026-06-30"
-  },
-  {
-    "id": 99,
-    "question": "查询时间段为'周三下午'的所有预约人和参会人数。",
-    "concepts": ["筛选"],
-    "file_name": "2-7.xlsx",
-    "answer": "黄强, 18; 赵丽, 8"
-  },
-  {
-    "id": 100,
-    "question": "查询会议室'VIP会议室'的所有预约时间段和参会人数。",
-    "concepts": ["筛选"],
-    "file_name": "2-7.xlsx",
-    "answer": "周三下午, 8; 周一下午, 5; 周四下午, 15; 周四下午, 17;"
-  },
-  {
-    "id": 101,
-    "question": "查询参会人数大于15的所有预约人和会议室。",
-    "concepts": ["筛选"],
-    "file_name": "2-7.xlsx",
-    "answer": "吴强, 201(10人); 李静, 201(10人); 黄强, 301(20人); 赵杰, VIP会议室; 陈娟, 201(10人);"
-  },
-  {
-    "id": 102,
-    "question": "查询预约人'赵丽'的会议室名称和时间段。",
-    "concepts": ["筛选"],
-    "file_name": "2-7.xlsx",
-    "answer": "VIP会议室, 周三下午"
-  },
-  {
-    "id": 103,
-    "question": "查询部门为'财务处'的所有员工姓名和总薪资。",
-    "concepts": ["筛选"],
-    "file_name": "2-9.xlsx",
-    "answer": "于鹏, 14323.4; 郑勇, 15287.61; 曹浩, 11228.72; 郑静, 10332.59; 赵燕, 10293.48; 徐鹏, 10110.84;"
-  },
-  {
-    "id": 104,
-    "question": "查询绩效奖金大于4000的员工姓名和部门。",
-    "concepts": ["筛选"],
-    "file_name": "2-9.xlsx",
-    "answer": "郑勇, 财务处; 张丹, 工会; 萧磊, 人事处; 张鹏, 人事处; 陈瑞, 教务处; 赵斌, 信息中心; 曹浩, 财务处; 郑平, 国际交流处; 郑静, 财务处; 赵燕, 财务处; 赵娟, 信息中心"
-  },
-  {
-    "id": 105,
-    "question": "查询考核等级为'优秀'的所有员工姓名和总薪资。",
-    "concepts": ["筛选"],
-    "file_name": "2-9.xlsx",
-    "answer": "张鹏, 13015.34; 郑敏, 12055.61; 程丹, 10885.21; 冯莹, 10705.7; 王磊, 10569.1; 周勇, 10387.46; 林雪, 10314.03; 王秀英, 8172.9"
-  },
-  {
-    "id": 106,
-    "question": "查询所属院系为'工学院'的所有教职工姓名和职称。",
-    "concepts": ["筛选"],
-    "file_name": "3-1.xlsx",
-    "answer": "周强, 助教; 王敏, 讲师; 李娟, 助教; 赵丽, 副教授; 黄伟, 讲师; 陈娜, 副教授; 黄杰, 讲师; 李丽, 副教授"
-  },
-  {
-    "id": 107,
-    "question": "查询总评成绩不及格的课程名称和学生姓名。",
-    "concepts": ["筛选"],
-    "file_name": "3-1.xlsx",
-    "answer": "高等数学, 王娟; 高等数学, 吴娟; 大学英语, 李芳; 高等数学, 刘娟;计算机基础, 刘娟; 计算机基础, 张芳;"
-  },
-  {
-    "id": 108,
-    "question": "查询教室为'A4'的所有课程名称和学生人数。",
-    "concepts": ["筛选"],
-    "file_name": "3-1.xlsx",
-    "answer": "高等数学, 112; 马克思主义原理, 58; 马克思主义原理, 53; 马克思主义原理, 56;"
-  },
-  {
-    "id": 109,
-    "question": "查询数学成绩大于140分的学生姓名和籍贯。",
-    "concepts": ["筛选"],
-    "file_name": "3-2.xlsx",
-    "answer": "吕丹, 上海; 朱洪丽, 北京; 严嘉, 新疆; 周文涛, 北京;褚纨, 北京; 杨丽, 北京; 孔丽, 北京; 曹程悦, 北京; 孙香秀, 北京;"
-  },
-  {
-    "id": 110,
-    "question": "查询体育成绩大于85分的河北籍学生姓名。",
-    "concepts": ["筛选"],
-    "file_name": "3-2.xlsx",
-    "answer": "周嘎妹"
-  },
-  {
-    "id": 111,
-    "question": "查询语文成绩大于130分且数学成绩大于120分的女学生姓名和班级。",
-    "concepts": ["筛选"],
-    "file_name": "3-2.xlsx",
-    "answer": "张梅香, 高三(二)班; 朱洪丽, 高三(二)班; 孔荔, 高三(三)班, 沈倩, 高三(一)班;"
-  },
-  {
-    "id": 112,
-    "question": "查询语言积累与运用得分大于25分的学生学号和班级。",
-    "concepts": ["筛选"],
-    "file_name": "3-3.xlsx",
-    "answer": "202, 二班; 112, 一班; 119, 一班; 110, 一班; 116, 一班; 113, 一班; 103, 一班;"
-  },
-  {
-    "id": 113,
-    "question": "查询英语和数学总分大于250分的学生学号。",
-    "concepts": ["筛选", "聚合"],
-    "file_name": "3-3.xlsx",
-    "answer": "105; 106; 107; 110; 112; 113; 117; 119; 202; 115; 121; 109; 108; 120"
-  },
-  {
-    "id": 114,
-    "question": "查询考勤状态为'迟到'的员工姓名和日期。",
-    "concepts": ["筛选"],
-    "file_name": "3-4.xlsx",
-    "answer": "吴杰, 2023-10-02; 王娟, 2023-10-03; 吴静, 2023-10-08; 黄静, 2023-10-10; 周娟, 2023-10-21;"
-  },
-  {
-    "id": 115,
-    "question": "查询上班时间最早的员工姓名和时间。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "3-4.xlsx",
-    "answer": "周丽, 08:00; 赵强, 08:00;"
-  },
-  {
-    "id": 116,
-    "question": "查询下班时间晚于18:00的员工姓名和日期。",
-    "concepts": ["筛选"],
-    "file_name": "3-4.xlsx",
-    "answer": "王娟, 2023-10-03; 李静, 2023-10-19; 黄静, 2023-10-10;"
-  },
-  {
-    "id": 117,
-    "question": "查询绩效评分大于90分的员工姓名。",
-    "concepts": ["筛选"],
-    "file_name": "3-5.xlsx",
-    "answer": "李小华; 孙伟; 郭静; 朱丽晗; 高强; 黄蓉萱;"
-  },
-  {
-    "id": 118,
-    "question": "查询基本工资大于10000的员工姓名。",
-    "concepts": ["筛选"],
-    "file_name": "3-5.xlsx",
-    "answer": "高强; 黄蓉萱; 张强; 何瑞; 孙伟; 梅超风"
-  },
-  {
-    "id": 119,
-    "question": "查询订单状态为'已发货'且所属销售团队为'华南区'的所有订单编号和客户名称。",
-    "concepts": ["筛选"],
-    "file_name": "3-7.xlsx",
-    "answer": "DD_240501_012, 简玉英; DD_240501_057, 王婷婷;"
-  },
-  {
-    "id": 120,
-    "question": "查询待排产总数大于50的四月的所有订单编号和客户名称。",
-    "concepts": ["筛选"],
-    "file_name": "3-7.xlsx",
-    "answer": "DD_240402_001, 曹先生; DD_240227_002, 陈女士; DD_240329_001, 秦灿灿"
-  },
-  {
-    "id": 121,
-    "question": "查询订单状态为'部分发货'且延期情况为'延期'的所有订单编号和客户。",
-    "concepts": ["筛选"],
-    "file_name": "3-7.xlsx",
-    "answer": "DD_240501_028, 熊彬; DD_240501_023, 谭丽; DD_240501_055, 王燕; DD_240501_072, 王小红; DD_240501_024, 张玉华; DD_240227_002, 陈女士; DD_240501_035, 章伟; DD_240501_052, 黄峰; DD_240501_020, 陈健; DD_240501_061, 王淑珍; DD_240501_060, 宋霞 ; DD_240501_048 ,张小红"
-  },
-  {
-    "id": 122,
-    "question": "查询订单状态为'未发货'且所属销售团队为'华南区'的所有订单编号和客户名称。",
-    "concepts": ["筛选"],
-    "file_name": "3-8.xlsx",
-    "answer": "DD_240501_022, 詹秀云; DD_240409_001, 严先生; DD_240417_001, 孙翠花;"
-  },
-  {
-    "id": 123,
-    "question": "查询下单总数大于1000的所有订单编号和客户名称。",
-    "concepts": ["筛选"],
-    "file_name": "3-8.xlsx",
-    "answer": "DD_240402_001, 曹先生; DD_240227_002, 陈女士;"
-  },
-  {
-    "id": 124,
-    "question": "查询订单状态为'部分发货'且已收款总额大于300000元的所有订单编号和客户。",
-    "concepts": ["筛选"],
-    "file_name": "3-8.xlsx",
-    "answer": "DD_240501_049, 李晶; DD_240501_072, 王小红; DD_240501_046, 李辉; DD_240501_024, 张玉华; DD_240501_036, 姜荣; DD_240227_002, 陈女士; DD_240501_016, 刘桂珍; DD_240501_052, 黄峰; DD_240501_037, 张晶; DD_240501_020, 陈健; DD_240501_035, 章伟;"
-  },
-  {
-    "id": 125,
-    "question": "查询部门为'财务部'的所有员工姓名和基本工资。",
-    "concepts": ["筛选"],
-    "file_name": "3-9.xlsx",
-    "answer": "Kristi Hansen, 19572.47; Joel Boyer, 16268.39; Michelle Collier, 13177.56; Kathryn Jones, 18851.54; Claudia Johnson, 16968.43; Mr. Jason Davis MD, 18319.41; Katherine Patel, 14984.13; Bonnie Wilson, 9645.72;"
-  },
-  {
-    "id": 126,
-    "question": "查询状态为'延误'的航班的航班号、航空公司和目的地。",
-    "concepts": ["筛选"],
-    "file_name": "4-1.xlsx",
-    "answer": "CA1895, 海南航空, New Lorettaberg; CZ7923, 南方航空, Parkerbury; MU4744, 厦门航空, Port Nichole; MU9351, 厦门航空, Guzmanfurt;"
-  },
-  {
-    "id": 127,
-    "question": "查询由'海南航空'运营的所有航班的航班号和状态。",
-    "concepts": ["筛选"],
-    "file_name": "4-1.xlsx",
-    "answer": "HU9636, 已降落; CA1895, 延误; CZ9302, 已起飞; MF2813, 已降落; MF2917, 取消; MU4708, 准时; MF9317, 已降落"
-  },
-  {
-    "id": 128,
-    "question": "查询计划起飞时间在2025-07-04 10:00:00之后的航班号。",
-    "concepts": ["筛选"],
-    "file_name": "4-1.xlsx",
-    "answer": "CZ1785; CA8238; HU9636; CZ6021; MU7755; MU4677; MF9895; CZ6675; MF2917; MU4744; CZ4556; MU3805; MF5029; CA6883"
-  },
-  {
-    "id": 129,
-    "question": "查询登机口为'B'开头的所有航班的航班号。",
-    "concepts": ["筛选"],
-    "file_name": "4-1.xlsx",
-    "answer": "HU6632; CA5824; MU1400; CA8238; CA1895; MU7755; CA7506; CZ9302; MU3145; HU2638; MF9895; MF2917; MU4744; HU3176"
-  },
-  {
-    "id": 130,
-    "question": "查询考勤状态为'迟到'的员工姓名和日期。",
-    "concepts": ["筛选"],
-    "file_name": "4-2.xlsx",
-    "answer": "Carolyn Walker DDS, 2025-06-25; Jennifer Harding, 2025-07-02; Mitchell Baird, 2025-06-04; Mrs. Rebecca Carney, 2025-06-07;"
-  },
-  {
-    "id": 131,
-    "question": "查询上班时间最早的员工姓名和时间。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-2.xlsx",
-    "answer": "Shelby Vazquez, 8:01:00"
-  },
-  {
-    "id": 132,
-    "question": "查询下班时间晚于17:30的员工姓名和日期。",
-    "concepts": ["筛选"],
-    "file_name": "4-2.xlsx",
-    "answer": "Veronica Hernandez, 2025-06-05; Gregory Brown, 2025-06-29; Martin Mcdaniel, 2025-06-16; Shelby Blackwell, 2025-06-29; Randall Castro, 2025-06-10; William Reese,2025-06-22; Andrew Durham, 2025-06-27; Jennifer Cisneros, 2025-06-11; Patrick Williams, 2025-06-29;"
-  },
-  {
-    "id": 133,
-    "question": "查询上班时间在08:00-08:30之间的员工姓名。",
-    "concepts": ["筛选"],
-    "file_name": "4-2.xlsx",
-    "answer": "Shelby Vazquez; Robert Yu; Mr. Kevin Howell MD; Andrew Durham; Jorge Shaw; Karen Lester; Alexis Peterson; Laura Greer; Stanley Reynolds; Brooke Jacobs; Randall Castro; Sandra Camacho; Jennifer Cisneros; Mitchell Baird; Jennifer Harding; Veronica Hernandez; James Owens; Gina Olson;"
-  },
-  {
-    "id": 134,
-    "question": "查询状态为'已预约'的所有男性患者姓名和科室。",
-    "concepts": ["筛选"],
-    "file_name": "4-5.xlsx",
-    "answer": "Stacy Gonzales, 儿科; Darius Brady, 口腔科; Andrew Duncan, 眼科; Michael Rios, 儿科;"
-  },
-  {
-    "id": 135,
-    "question": "查询科室为'口腔科'的所有医生姓名和预约时间。",
-    "concepts": ["筛选"],
-    "file_name": "4-5.xlsx",
-    "answer": "Dana Henderson, 2025-06-27 19:17:52; John Romero, 2025-07-04 8:21:57; Lisa Silva, 2025-07-06 5:10:48; Kimberly Riggs, 2025-07-01 19:18:56; Sarah Bradford, 2025-07-07 2:26:31; Christina Short, 2025-07-04 2:14:00; Kenneth Ramirez, 2025-06-30 12:24:54; Amy Lewis, 2025-07-03 6:33:37; Benjamin Berry, 2025-07-01 3:51:34; Laura Wilson, 2025-07-09 17:59:00; Gary Reyes, 2025-07-02 21:05:59; James Hernandez, 2025-06-27 20:12:36; Richard Hancock, 2025-07-03 8:46:27; Timothy Snyder, 2025-06-29 18:23:33"
-  },
-  {
-    "id": 136,
-    "question": "查询症状描述包含'water'的患者姓名和年龄。",
-    "concepts": ["筛选"],
-    "file_name": "4-5.xlsx",
-    "answer": "Martin Jordan, 19;"
-  },
-  {
-    "id": 137,
-    "question": "查询年龄最大的患者姓名和年龄。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-5.xlsx",
-    "answer": "Mary Johnson, 79; Randy Nelson, 79; Emily Rivera, 79"
-  },
-  {
-    "id": 138,
-    "question": "查询预约时间最早的患者姓名和预约时间。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-5.xlsx",
-    "answer": "James Adkins, 2025-06-27 6:57:48;"
-  },
-  {
-    "id": 139,
-    "question": "查询类型为'动作'的所有电影名称和票房。",
-    "concepts": ["筛选"],
-    "file_name": "4-6.xlsx",
-    "answer": "Ameliorated leadingedge algorithm, 22238.66; Visionary regional Graphical User Interface, 13730.79; Team-oriented optimizing encryption, 1041.82; Enterprise-wide asynchronous budgetary management, 36358.27; Integrated demand-driven frame, 22008.26; Inverse holistic data-warehouse, 41667.29"
-  },
-  {
-    "id": 140,
-    "question": "查询需要补货为'TRUE'的所有产品名称和库存数量。",
-    "concepts": ["筛选"],
-    "file_name": "4-3.xlsx",
-    "answer": "Measure 仪器, 1; Can 产品, 40; Institution 仪器, 65; Upon 工具, 45; Research 配件, 87; Dark 工具, 13; We 仪器, 13; Five 仪器, 5; Although 配件, 20;"
-  },
-  {
-    "id": 141,
-    "question": "查询供应商为'Sanders LLC'的所有产品名称和类别。",
-    "concepts": ["筛选"],
-    "file_name": "4-3.xlsx",
-    "answer": "Last 配件, 办公;"
-  },
-  {
-    "id": 142,
-    "question": "查询承运公司为'京东物流'的所有运单号和收货人。",
-    "concepts": ["筛选"],
-    "file_name": "4-4.xlsx",
-    "answer": "YT2925482186, Danielle Robinson; YT9498012907, Craig Johnson; YT5155151132, Emily Flores; YT7118172969, William Morrison; YT8115650473, Patricia Valenzuela; YT3566143086, Maria Garcia; YT4057858046, Nicholas Smith; YT5627981140, Sharon Perry; YT8805028119, William Barber;"
-  },
-  {
-    "id": 143,
-    "question": "查询当前状态为'已签收'的运单的运单号和收货人。",
-    "concepts": ["筛选"],
-    "file_name": "4-4.xlsx",
-    "answer": "YT2925482186, Danielle Robinson; YT9341401015, Ashley Mejia; YT7014755110, Robert Mahoney; YT3595806270, Tina Harris; YT5158594336, Brianna Webster; YT4057858046, Steven Johnson;"
-  },
-  {
-    "id": 144,
-    "question": "查询类型为'科幻'的所有电影名称和评分。",
-    "concepts": ["筛选"],
-    "file_name": "4-6.xlsx",
-    "answer": "Enhanced empowering definition, 5.4; Profit-focused discrete conglomeration, 9.8; Horizontal mobile alliance, 5.6"
-  },
-  {
-    "id": 145,
-    "question": "查询评分大于8.0的电影名称和导演。",
-    "concepts": ["筛选"],
-    "file_name": "4-6.xlsx",
-    "answer": "Profit-focused needs-based superstructure, Michelle Powers; Function-based multimedia artificial intelligence, Tara Nguyen; Profit-focused discrete conglomeration, Nicole Jensen PhD; Total demand-driven challenge, Martin Bauer; Team-oriented optimizing encryption, Ernest Crawford; Multi-channeled full-range utilization, Scott Arroyo; Proactive zero tolerance system engine, Bryan Butler; Multi-layered dedicated protocol, Wendy Mendoza; Enterprise-wide asynchronous budgetary management, Tiffany Banks; Multi-layered even-keeled moderator, Randy Miles; Monitored incremental workforce, Raymond Sanford;"
-  },
-  {
-    "id": 146,
-    "question": "查询排片占比大于35%的电影名称和类型。",
-    "concepts": ["筛选"],
-    "file_name": "4-6.xlsx",
-    "answer": "Multi-layered dedicated protocol, 爱情; Function-based multimedia artificial intelligence, 爱情; Object-based leadingedge database, 爱情; Multi-layered dedicated protocol, 爱情; Reactive interactive superstructure, 恐怖; Configurable interactive encoding, 悬疑"
-  },
-  {
-    "id": 147,
-    "question": "查询海淀区的商铺房源的所有信息。",
-    "concepts": ["筛选"],
-    "file_name": "4-7.xlsx",
-    "answer": "RE1070012, Yet who shoulder police statement sell international., 商铺, 海淀区, 149.1, 248, 92327.6, 西南, 简装, 7/21, 2025-07-01, Anthony Sutton, +1-793-558-7665x7217; RE3108312, Front cup scientist store remember establish later reality., 商铺, 海淀区, 111.1, 2458.9, 88767.2, 西北, 精装, 18/32, 2025-06-25, Michael Patel, 760.944.1037x826;"
-  },
-  {
-    "id": 148,
-    "question": "查询面积大于200㎡的公寓房源的区域和面积。",
-    "concepts": ["筛选"],
-    "file_name": "4-7.xlsx",
-    "answer": "西城区, 214.1; 通州区, 240; 东城区, 203.8; 东城区, 232.8;海淀区, 265.7;"
-  },
-  {
-    "id": 149,
-    "question": "查询西城区的商铺中价格低于1000万的房源编号和价格。",
-    "concepts": ["筛选"],
-    "file_name": "4-7.xlsx",
-    "answer": "RE6062192, 381.5;"
-  },
-  {
-    "id": 150,
-    "question": "查询2025-06-30之后发布的所有简装房源的标题和发布时间。",
-    "concepts": ["筛选"],
-    "file_name": "4-7.xlsx",
-    "answer": "Yet who shoulder police statement sell international., 2025-07-01;"
-  },
-  {
-    "id": 151,
-    "question": "查询状态为'已取消'的所有订单的桌号和菜品。",
-    "concepts": ["筛选"],
-    "file_name": "4-8.xlsx",
-    "answer": "T14, 清蒸鱼, 水煮鱼; T2, 红烧肉; T10, 糖醋排骨, 麻婆豆腐, 水煮鱼; T15, 糖醋排骨, 回锅肉, 水煮鱼, 麻婆豆腐; T14, 糖醋排骨; T17, 回锅肉; T18, 糖醋排骨, 水煮鱼, 回锅肉; T20, 清蒸鱼, 回锅肉, 麻婆豆腐, 宫保鸡丁;"
-  },
-  {
-    "id": 152,
-    "question": "查询包含'水煮鱼'菜品的桌号T1的所有订单的服务员和下单时间。",
-    "concepts": ["筛选"],
-    "file_name": "4-8.xlsx",
-    "answer": "Robert Watson, 2025-07-03 13:41:54; Christopher Willis, 2025-07-03 2:17:21; Ronald Hodges, 2025-07-03 4:08:17"
-  },
-  {
-    "id": 153,
-    "question": "查询由服务员'Jennifer Fields'处理的所有订单的桌号和菜品。",
-    "concepts": ["筛选"],
-    "file_name": "4-8.xlsx",
-    "answer": "T8, 回锅肉;"
-  },
-  {
-    "id": 154,
-    "question": "查询总价超过400元的订单中，状态为'已完成'的订单的桌号和总价。",
-    "concepts": ["筛选"],
-    "file_name": "4-8.xlsx",
-    "answer": "T1, 454.11; T16, 443.39; T20, 438.45; T16, 423.09; T5, 407.94;"
-  },
-  {
-    "id": 155,
-    "question": "查询数量为3的已取消的订单的桌号和菜品。",
-    "concepts": ["筛选"],
-    "file_name": "4-8.xlsx",
-    "answer": "T15, 糖醋排骨, 回锅肉, 水煮鱼, 麻婆豆腐;T18, 糖醋排骨, 水煮鱼, 回锅肉"
-  },
-  {
-    "id": 156,
-    "question": "查询单价超过1800元/件的所有产品的订单ID、产品名称和单价。",
-    "concepts": ["筛选"],
-    "file_name": "4-9.xlsx",
-    "answer": "ORD1006, 平板, 1900.03; ORD1013, 笔记本电脑, 1822.91; ORD1015, 笔记本电脑, 1867.66; ORD1019, 笔记本电脑, 1881.75; ORD1025, 显示器, 1803.08; ORD1033, 手机,1925.52; ORD1037, 笔记本电脑, 1963.5; ORD1039, 显示器, 1823.07;"
-  },
-  {
-    "id": 157,
-    "question": "查询2025年6月下单的笔记本电脑订单的订单ID和地区。",
-    "concepts": ["筛选"],
-    "file_name": "4-9.xlsx",
-    "answer": "ORD1008, 华北; ORD1036, 华北; ORD1044, 华南;"
-  },
-  {
-    "id": 158,
-    "question": "查询2024年8月下单的所有订单的订单ID和产品名称。",
-    "concepts": ["筛选"],
-    "file_name": "4-9.xlsx",
-    "answer": "ORD1002, 笔记本电脑; ORD1026, 手机; ORD1032, 耳机; ORD1042, 显示器"
-  },
-  {
-    "id": 159,
-    "question": "查询互动率超过14%的所有内容的平台、内容类型和互动率。",
-    "concepts": ["筛选"],
-    "file_name": "5-1.xlsx",
-    "answer": "微信, 直播, 14.87; 小红书, 故事, 14.39; B站, 视频, 14.97; 抖音, 直播, 14.98; 微信, 故事, 14.63; "
-  },
-  {
-    "id": 160,
-    "question": "查询微博平台中观看数超过50000的内容的作者和观看数。",
-    "concepts": ["筛选"],
-    "file_name": "5-1.xlsx",
-    "answer": "Brandon Kerr, 64372; Christopher Callahan, 98598; Emily Wilson, 89394; Timothy Alvarez, 60143; Elizabeth Williams, 63857; Kelsey Riggs, 97198; Amy Davenport, 83651; Michael Bradley, 70911; Robert Sims, 53306; Austin Rodriguez, 73102;"
-  },
-  {
-    "id": 161,
-    "question": "查询热门标签包含'money'的内容的平台和内容类型。",
-    "concepts": ["筛选"],
-    "file_name": "5-1.xlsx",
-    "answer": "微信, 直播; 小红书, 文字;"
-  },
-  {
-    "id": 162,
-    "question": "查询评论数超过4500的内容的作者和评论数。",
-    "concepts": ["筛选"],
-    "file_name": "5-1.xlsx",
-    "answer": "Michael Bradley, 4793; Luis Beck, 4780; Emily Wilson, 4802; James Reid, 4586; Robert Nash, 4887; Marie Barnes, 4552; Kristen Ball, 4815; Brittney Brown, 4999; Paula Livingston, 4614; David Barrera, 4838; Amy Harrison, 4846; "
-  },
-  {
-    "id": 163,
-    "question": "查询B站平台中内容类型为'故事'的内容的发布时间和互动率。",
-    "concepts": ["筛选"],
-    "file_name": "5-1.xlsx",
-    "answer": "2025-07-02 15:05:48, 9.65; 2025-06-29 6:21:18, 13.59; 2025-07-02 9:38:05, 5.01; 2025-06-30 13:58:30, 0.51;"
-  },
-  {
-    "id": 164,
-    "question": "查询盈亏比例大于15%的所有交易的交易ID和盈亏比例。",
-    "concepts": ["筛选"],
-    "file_name": "5-2.xlsx",
-    "answer": "T202507040019, 18.5; T202507040041, 16.23; T202507040032, 19.37; T202507040034, 19.9; T202507040044, 18.82; T202507040046, 17.86; T202507040049, 16.37;"
-  },
-  {
-    "id": 165,
-    "question": "查询股票代码为'MSFT'的所有交易的交易ID和交易日期。",
-    "concepts": ["筛选"],
-    "file_name": "5-2.xlsx",
-    "answer": "T202507040007, 2025-06-27; T202507040011, 2025-06-04; T202507040019, 2025-06-07; T202507040025, 2025-06-15; T202507040026, 2025-06-12; T202507040032, 2025-06-25; T202507040033, 2025-07-01;"
-  },
-  {
-    "id": 166,
-    "question": "查询平均分大于80分的学生姓名和班级。",
-    "concepts": ["筛选"],
-    "file_name": "5-3.xlsx",
-    "answer": "Brenda Robinson, 四班; Heather Schneider, 二班; Jessica Larson, 四班; James Young, 三班; Claudia Andrews, 一班; James Young, 三班;"
-  },
-  {
-    "id": 167,
-    "question": "查询数学成绩最高的学生姓名和数学成绩。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "5-3.xlsx",
-    "answer": "Heather Schneider, 99"
-  },
-  {
-    "id": 168,
-    "question": "查询生物成绩低于60分的学生姓名和班级。",
-    "concepts": ["筛选"],
-    "file_name": "5-3.xlsx",
-    "answer": "Danielle Cain, 一班; Debra Thomas, 一班; Kimberly Lee, 三班; Kenneth Todd, 二班; Ryan Moreno, 三班; Brian Key, 四班; Michael Mack, 一班;"
-  },
-  {
-    "id": 169,
-    "question": "查询语文和英语成绩都超过90分的学生姓名和班级。",
-    "concepts": ["筛选"],
-    "file_name": "5-3.xlsx",
-    "answer": "James Young, 三班;"
-  },
-  {
-    "id": 170,
+    "id": 9,
     "question": "查询薪资最高的员工所属部门。",
     "concepts": ["排序", "筛选"],
     "file_name": "1-2.xlsx",
     "answer": "市场"
   },
   {
-    "id": 171,
+    "id": 10,
     "question": "查询薪资从高到低前三名的员工姓名、部门和薪资。",
     "concepts": ["排序"],
     "file_name": "1-2.xlsx",
     "answer": "李洋, 市场, 18662.92; 张静, 技术, 18422.05; 赵芳, 市场, 18171.79"
   },
   {
-    "id": 172,
+    "id": 11,
+    "question": "计算2023年所有地区的平均收入。",
+    "concepts": ["求均值"],
+    "file_name": "1-3.xlsx",
+    "answer": "40352.64"
+  },
+  {
+    "id": 12,
+    "question": "找出2023年收入最高的地区。",
+    "concepts": ["求最大值"],
+    "file_name": "1-3.xlsx",
+    "answer": "广东省"
+  },
+  {
+    "id": 13,
     "question": "北京市2023年相较于2022年收入增长了多少百分比？",
     "concepts": ["百分比变化"],
     "file_name": "1-3.xlsx",
     "answer": "5.34"
   },
   {
-    "id": 173,
+    "id": 14,
     "question": "哪一年河北省的收入首次超过30000元？",
     "concepts": ["数据分析"],
     "file_name": "1-3.xlsx",
     "answer": "2017"
   },
   {
-    "id": 174,
+    "id": 15,
+    "question": "查询2023年GDP超过100000亿元的省份及其GDP。",
+    "concepts": ["筛选"],
+    "file_name": "1-3.xlsx",
+    "answer": "江苏省, 128222.2; 广东省, 135673.2"
+  },
+  {
+    "id": 16,
     "question": "查询2022年GDP排名前三的省份。",
     "concepts": ["排序", "筛选"],
     "file_name": "1-3.xlsx",
     "answer": "广东省, 江苏省, 山东省"
   },
   {
-    "id": 175,
+    "id": 17,
+    "question": "查询2014年到2023年GDP增长额（2023减2014）最大的省份。",
+    "concepts": ["算术运算", "排序"],
+    "file_name": "1-3.xlsx",
+    "answer": "广东省"
+  },
+  {
+    "id": 18,
+    "question": "查询2023年GDP低于全国平均值的省份数量。",
+    "concepts": ["求均值", "筛选", "计数"],
+    "file_name": "1-3.xlsx",
+    "answer": "18"
+  },
+  {
+    "id": 19,
+    "question": "查询北京市2014年至2023年的GDP数据。",
+    "concepts": ["筛选"],
+    "file_name": "1-3.xlsx",
+    "answer": "22926, 24779.1, 27041.2, 29883, 33106, 35445.1, 35943.3, 41045.6, 41540.9, 43760.7"
+  },
+  {
+    "id": 20,
     "question": "列出所有2023年GDP高于50000亿元的省份，并按GDP从高到低排序。",
     "concepts": ["筛选", "排序"],
     "file_name": "1-3.xlsx",
     "answer": "广东省, 江苏省, 山东省, 浙江省, 四川省, 河南省, 湖北省, 福建省 ,湖南省"
   },
   {
-    "id": 176,
+    "id": 21,
+    "question": "计算所有销售记录的总销售金额。",
+    "concepts": ["求和"],
+    "file_name": "1-4.xlsx",
+    "answer": "121332.45"
+  },
+  {
+    "id": 22,
+    "question": "促销销售的平均销售金额是多少？",
+    "concepts": ["求均值"],
+    "file_name": "1-4.xlsx",
+    "answer": "3705.18"
+  },
+  {
+    "id": 23,
+    "question": "哪个产品ID的总销售金额最高？",
+    "concepts": ["求最大值"],
+    "file_name": "1-4.xlsx",
+    "answer": "P1466"
+  },
+  {
+    "id": 24,
+    "question": "非促销情况下的总销售量是多少？",
+    "concepts": ["求和"],
+    "file_name": "1-4.xlsx",
+    "answer": "639"
+  },
+  {
+    "id": 25,
     "question": "查询2025年6月期间，总金额最高的销售记录对应的产品ID和销售量。",
     "concepts": ["排序", "筛选"],
     "file_name": "1-4.xlsx",
     "answer": "P1466, 73"
   },
   {
-    "id": 177,
+    "id": 26,
     "question": "查询单价最高的产品ID及其是否参与促销。",
     "concepts": ["排序", "筛选"],
     "file_name": "1-4.xlsx",
     "answer": "P8849, 否"
   },
   {
-    "id": 178,
+    "id": 27,
+    "question": "计算每一天的总销售额，并列出销售额最高的日期。",
+    "concepts": ["分组", "求和", "排序"],
+    "file_name": "1-4.xlsx",
+    "answer": "2025-06-27"
+  },
+  {
+    "id": 28,
     "question": "查询所有销售记录，按总金额从高到低排序前三名。",
     "concepts": ["排序"],
     "file_name": "1-4.xlsx",
     "answer": "P1466, 13760.5; P8849, 9282.97; P6311, 7546.5"
   },
   {
-    "id": 179,
+    "id": 29,
+    "question": "所有物品的平均实际报价是多少？",
+    "concepts": ["求均值"],
+    "file_name": "1-5.xlsx",
+    "answer": "2756.75"
+  },
+  {
+    "id": 30,
+    "question": "有多少申请单的实际报价高于预算？",
+    "concepts": ["计数"],
+    "file_name": "1-5.xlsx",
+    "answer": "12"
+  },
+  {
+    "id": 31,
+    "question": "京东提供的最贵商品的实际报价是多少？",
+    "concepts": ["求最大值"],
+    "file_name": "1-5.xlsx",
+    "answer": "2523.47"
+  },
+  {
+    "id": 32,
+    "question": "所有已批准申请的总预算是多少？",
+    "concepts": ["求和"],
+    "file_name": "1-5.xlsx",
+    "answer": "24200"
+  },
+  {
+    "id": 33,
+    "question": "查询来自京东的供应商的所有采购物品名称和预算。",
+    "concepts": ["筛选"],
+    "file_name": "1-5.xlsx",
+    "answer": "打印机, 800; 办公桌, 2000;"
+  },
+  {
+    "id": 34,
     "question": "查询审批状态为待审批的采购申请中，预算最高的物品名称。",
     "concepts": ["筛选", "排序"],
     "file_name": "1-5.xlsx",
     "answer": "电脑"
   },
   {
-    "id": 180,
-    "question": "查询处理状态为“待处理”的反馈记录中，责任部门有哪些？",
-    "concepts": ["筛选", "分组"],
-    "file_name": "1-7.xlsx",
-    "answer": "物流部, 质检部, 研发部, 人力资源部"
-  },
-  {
-    "id": 181,
-    "question": "查询访问人气最高的月份及其对应的访问人气值。",
-    "concepts": ["排序", "筛选"],
-    "file_name": "1-8.xlsx",
-    "answer": "2023年10月, 4676989"
-  },
-  {
-    "id": 182,
-    "question": "统计每种运输方式的货物数量。",
-    "concepts": ["分组", "计数"],
-    "file_name": "1-9.xlsx",
-    "answer": "空运: 8, 陆运: 6, 海运: 5, 铁路运输: 6"
-  },
-  {
-    "id": 183,
-    "question": "查询6月15日之前下单的订单中，订单数量最多的客户名称。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "2-1.xlsx",
-    "answer": "周翔"
-  },
-  {
-    "id": 184,
-    "question": "查询班级排名前5的学生姓名和得分。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "2-2.xlsx",
-    "answer": "曹玉凤, 88; 陈虹, 87; 严嘉, 87; 李大芬, 86; 康蓓, 85.5;"
-  },
-  {
-    "id": 185,
-    "question": "查询校次最高的学生姓名。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "2-2.xlsx",
-    "answer": "曹玉凤"
-  },
-  {
-    "id": 186,
-    "question": "查询3班中得分最高的学生姓名。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "2-2.xlsx",
-    "answer": "曹玉凤"
-  },
-  {
-    "id": 187,
-    "question": "查询主观题得分与客观题得分差距最大的学生姓名。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "2-2.xlsx",
-    "answer": "曹玉凤"
-  },
-  {
-    "id": 188,
-    "question": "查询班级排名为1的学生姓名和得分。",
-    "concepts": ["筛选"],
-    "file_name": "2-2.xlsx",
-    "answer": "曹玉凤, 88"
-  },
-  {
-    "id": 189,
-    "question": "查询11.7收现金额最高的单位名称。",
-    "concepts": ["筛选", "排序", "聚合"],
-    "file_name": "2-3.xlsx",
-    "answer": "鑫时代"
-  },
-  {
-    "id": 190,
-    "question": "查询基本工资最高的部门名称。",
-    "concepts": ["筛选", "排序", "聚合"],
-    "file_name": "2-4.xlsx",
-    "answer": "销售部"
-  },
-  {
-    "id": 191,
-    "question": "查询实发工资最高的员工姓名。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "2-4.xlsx",
-    "answer": "许银姣, 李大秀"
-  },
-  {
-    "id": 192,
-    "question": "查询实发工资最高的部门名称。",
-    "concepts": ["筛选", "排序", "聚合"],
-    "file_name": "2-4.xlsx",
-    "answer": "销售部"
-  },
-  {
-    "id": 193,
-    "question": "查询预算最高的广告名称和投放平台。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "2-6.xlsx",
-    "answer": "节日优惠, 微博"
-  },
-  {
-    "id": 194,
-    "question": "查询参会人数最多的会议室名称和预约人。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "2-7.xlsx",
-    "answer": "201(10人), 吴强"
-  },
-  {
-    "id": 195,
-    "question": "查询总薪资最高的部门名称。",
-    "concepts": ["筛选", "排序", "聚合"],
-    "file_name": "2-9.xlsx",
-    "answer": "财务处"
-  },
-  {
-    "id": 196,
-    "question": "查询重要程度为'重要'的活动中，参与人数最多的活动名称。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "3-1.xlsx",
-    "answer": "学术报告"
-  },
-  {
-    "id": 197,
-    "question": "查询英语成绩最高的学生姓名和班级。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "3-2.xlsx",
-    "answer": "范咏, 高三(三)班"
-  },
-  {
-    "id": 198,
-    "question": "查询政治、历史、地理三科总分最高的学生姓名。",
-    "concepts": ["筛选", "排序", "聚合"],
-    "file_name": "3-2.xlsx",
-    "answer": "张梅香"
-  },
-  {
-    "id": 199,
-    "question": "查询'高三(二)班'中英语成绩最高的学生姓名。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "3-2.xlsx",
-    "answer": "王元珊"
-  },
-  {
-    "id": 200,
-    "question": "查询一模总分最高的学生学号和班级。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "3-3.xlsx",
-    "answer": "202, 二班"
-  },
-  {
-    "id": 201,
-    "question": "查询阅读理解与古诗阅读与鉴赏总分最高的学生学号。",
-    "concepts": ["筛选", "排序", "聚合"],
-    "file_name": "3-3.xlsx",
-    "answer": "203"
-  },
-  {
-    "id": 202,
-    "question": "查询总薪酬最高的部门名称。",
-    "concepts": ["筛选", "排序", "聚合"],
-    "file_name": "3-5.xlsx",
-    "answer": "研发部"
-  },
-  {
-    "id": 203,
-    "question": "查询晋升次数最多的员工姓名和部门。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "3-5.xlsx",
-    "answer": "高强, 研发部"
-  },
-  {
-    "id": 204,
-    "question": "查询物流费用最高的月份及金额。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "3-6.xlsx",
-    "answer": "10月, 215"
-  },
-  {
-    "id": 205,
-    "question": "查询所属销售团队为'华北区'的订单中，订单总额最高的客户名称。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "3-7.xlsx",
-    "answer": "张晶"
-  },
-  {
-    "id": 206,
-    "question": "查询已收款总额最高的销售负责人。",
-    "concepts": ["筛选", "排序", "聚合"],
-    "file_name": "3-7.xlsx",
-    "answer": "沈倩"
-  },
-  {
-    "id": 207,
-    "question": "查询所属销售团队为'华东区'的订单中，订单总额最高的客户名称。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "3-8.xlsx",
-    "answer": "丁伟"
-  },
-  {
-    "id": 208,
-    "question": "查询待发货总数最高的销售负责人。",
-    "concepts": ["筛选", "排序", "聚合"],
-    "file_name": "3-8.xlsx",
-    "answer": "沈倩"
-  },
-  {
-    "id": 209,
-    "question": "查询使用'空客A350'机型的航班中，实际到达时间最早的航班号。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-1.xlsx",
-    "answer": "HU6632"
-  },
-  {
-    "id": 210,
-    "question": "查询票房最高的电影名称和导演。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-6.xlsx",
-    "answer": "Proactive zero tolerance system engine, Bryan Butler"
-  },
-  {
-    "id": 211,
-    "question": "查询评分最高的电影名称和国家/地区。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-6.xlsx",
-    "answer": "Multi-layered even-keeled moderator, 日本;"
-  },
-  {
-    "id": 212,
-    "question": "查询上座率最高的电影名称和类型。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-6.xlsx",
-    "answer": "Expanded local open system, 恐怖"
-  },
-  {
-    "id": 213,
-    "question": "查询单价最高的3个产品的名称和单价。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-3.xlsx",
-    "answer": "Add 仪器, 484.11; As 配件, 481.83; From 仪器, 480.45;"
-  },
-  {
-    "id": 214,
-    "question": "查询运费最高的运单的运单号和运费。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-4.xlsx",
-    "answer": "YT2487544324, 99.75"
-  },
-  {
-    "id": 215,
-    "question": "查询上座率最高的电影所属国家/地区。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-6.xlsx",
-    "answer": "美国"
-  },
-  {
-    "id": 216,
-    "question": "查询票房收入最高的电影类型。",
-    "concepts": ["筛选", "排序", "聚合"],
-    "file_name": "4-6.xlsx",
-    "answer": "悬疑"
-  },
-  {
-    "id": 217,
-    "question": "查询价格最高的前3个房源的标题和价格。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-7.xlsx",
-    "answer": "Weight run then home., 2956.1; Too exactly run send however citizen., 2815.5; Old three end lose than design., 2756.1;"
-  },
-  {
-    "id": 218,
-    "question": "查询单价最高的毛坯装修房源的标题和单价。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-7.xlsx",
-    "answer": "White newspaper leg contain., 97933.6"
-  },
-  {
-    "id": 219,
-    "question": "查询总价最高的订单的桌号、菜品和总价。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-8.xlsx",
-    "answer": "T6, 水煮鱼, 484.47"
-  },
-  {
-    "id": 220,
-    "question": "查询耳机类目中数量最少的订单的订单ID和数量。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-9.xlsx",
-    "answer": "ORD1018, 1; ORD1045, 1"
-  },
-  {
-    "id": 221,
-    "question": "查询华中地区的手机订单的订单ID和总金额。",
-    "concepts": ["筛选"],
-    "file_name": "4-9.xlsx",
-    "answer": "ORD1011, 352.52; ORD1017, 551.47; ORD1021, 770.11; ORD1023, 874.86; ORD1024, 1558.72; ORD1034, 236.2; ORD1041, 3281.56; ORD1042, 456.72; ORD1045, 629.33"
-  },
-  {
-    "id": 222,
-    "question": "查询平板类目中单价最低的订单的订单ID和单价。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "4-9.xlsx",
-    "answer": "ORD1017, 551.47"
-  },
-  {
-    "id": 223,
-    "question": "查询点赞数最高的内容的作者和内容ID。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "5-1.xlsx",
-    "answer": "Brooke Turner, CM6011707"
-  },
-  {
-    "id": 224,
-    "question": "查询盈亏金额为负值（亏损）的交易中，亏损比例最小的交易ID。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "5-2.xlsx",
-    "answer": "T202507040045"
-  },
-  {
-    "id": 225,
-    "question": "查询交易类型为'买入'且盈亏金额最高的交易的交易ID和股票名称。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "5-2.xlsx",
-    "answer": "T202507040043, Le PLC"
-  },
-  {
-    "id": 226,
-    "question": "查询交易数量大于500的交易中，交易金额最高的交易ID。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "5-2.xlsx",
-    "answer": "T202507040002"
-  },
-  {
-    "id": 227,
-    "question": "查询平均分超过80分的学生中，总分最高的学生姓名。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "5-3.xlsx",
-    "answer": "James Young"
-  },
-  {
-    "id": 228,
-    "question": "查询总分排名前3的学生姓名。",
-    "concepts": ["筛选", "排序"],
-    "file_name": "5-3.xlsx",
-    "answer": "James Young; Claudia Andrews; Jessica Larson;"
-  },
-  {
-    "id": 229,
-    "question": "查询2023年GDP超过100000亿元的省份及其GDP。",
-    "concepts": ["筛选"],
-    "file_name": "1-3.xlsx",
-    "answer": "江苏省, 128222.2; 广东省, 135673.2"
-  },
-  {
-    "id": 230,
-    "question": "查询2014年到2023年GDP增长额（2023减2014）最大的省份。",
-    "concepts": ["算术运算", "排序"],
-    "file_name": "1-3.xlsx",
-    "answer": "广东省"
-  },
-  {
-    "id": 231,
-    "question": "查询2023年GDP低于全国平均值的省份数量。",
-    "concepts": ["求均值", "筛选", "计数"],
-    "file_name": "1-3.xlsx",
-    "answer": "18"
-  },
-  {
-    "id": 232,
-    "question": "计算每一天的总销售额，并列出销售额最高的日期。",
-    "concepts": ["分组", "求和", "排序"],
-    "file_name": "1-4.xlsx",
-    "answer": "2025-06-27"
-  },
-  {
-    "id": 233,
+    "id": 35,
     "question": "计算每个供应商的已批准采购单数量。",
     "concepts": ["分组", "计数"],
     "file_name": "1-5.xlsx",
     "answer": "本地经销商: 5; 京东: 3; 阿里: 2"
   },
   {
-    "id": 234,
+    "id": 36,
+    "question": "所有员工的加班总天数是多少？",
+    "concepts": ["求和"],
+    "file_name": "1-6.xlsx",
+    "answer": "41"
+  },
+  {
+    "id": 37,
+    "question": "北京分公司的员工总迟到次数是多少？",
+    "concepts": ["求和"],
+    "file_name": "1-6.xlsx",
+    "answer": "51"
+  },
+  {
+    "id": 38,
+    "question": "销售部中哪位员工的旷工次数最多？",
+    "concepts": ["求最大值"],
+    "file_name": "1-6.xlsx",
+    "answer": "施丽"
+  },
+  {
+    "id": 39,
+    "question": "有多少员工请了假（请假天数不为0）？",
+    "concepts": ["计数"],
+    "file_name": "1-6.xlsx",
+    "answer": "10"
+  },
+  {
+    "id": 40,
+    "question": "查询北京分公司行政部中迟到次数大于5次的员工姓名。",
+    "concepts": ["筛选"],
+    "file_name": "1-6.xlsx",
+    "answer": "李大芬"
+  },
+  {
+    "id": 41,
+    "question": "一共收到了多少条‘严重’的问题反馈？",
+    "concepts": ["计数"],
+    "file_name": "1-7.xlsx",
+    "answer": "8"
+  },
+  {
+    "id": 42,
+    "question": "客户的平均满意度是多少？",
+    "concepts": ["求均值"],
+    "file_name": "1-7.xlsx",
+    "answer": "3.2"
+  },
+  {
+    "id": 43,
+    "question": "‘物流部’负责处理了多少条客户反馈？",
+    "concepts": ["计数"],
+    "file_name": "1-7.xlsx",
+    "answer": "3"
+  },
+  {
+    "id": 44,
+    "question": "所有状态为‘待处理’的反馈中，满意度最低的是哪位客户？",
+    "concepts": ["求最小值"],
+    "file_name": "1-7.xlsx",
+    "answer": "C004"
+  },
+  {
+    "id": 45,
+    "question": "查询客户满意度低于3且问题严重性为“严重”的反馈内容。",
+    "concepts": ["筛选"],
+    "file_name": "1-7.xlsx",
+    "answer": "产品操作界面不友好, 产品使用中出现故障,产品功能不符合预期"
+  },
+  {
+    "id": 46,
+    "question": "查询处理状态为“待处理”的反馈记录中，责任部门有哪些？",
+    "concepts": ["筛选", "分组"],
+    "file_name": "1-7.xlsx",
+    "answer": "物流部, 质检部, 研发部, 人力资源部"
+  },
+  {
+    "id": 47,
+    "question": "查询所有“建议”类型的反馈内容。",
+    "concepts": ["筛选"],
+    "file_name": "1-7.xlsx",
+    "answer": "增加更多产品选项, 希望提供更多教程, 客户希望增加新功能"
+  },
+  {
+    "id": 48,
     "question": "统计每个责任部门的反馈记录数量。",
     "concepts": ["分组", "计数"],
     "file_name": "1-7.xlsx",
     "answer": "物流部: 3, 人力资源部: 7, 研发部: 8, 质检部: 2, 售后部: 1, 财务部: 2, 市场部: 2"
   },
   {
-    "id": 235,
+    "id": 49,
+    "question": "所有月份的访问人气总和是多少？",
+    "concepts": ["求和"],
+    "file_name": "1-8.xlsx",
+    "answer": "40988336"
+  },
+  {
+    "id": 50,
+    "question": "哪一个月份的浏览热度最高？",
+    "concepts": ["求最大值"],
+    "file_name": "1-8.xlsx",
+    "answer": "2023年10月"
+  },
+  {
+    "id": 51,
+    "question": "平均收藏人气是多少？",
+    "concepts": ["求均值"],
+    "file_name": "1-8.xlsx",
+    "answer": "639653.92"
+  },
+  {
+    "id": 52,
+    "question": "哪一个月份的加购热度最低？",
+    "concepts": ["求最小值"],
+    "file_name": "1-8.xlsx",
+    "answer": "2023年7月"
+  },
+  {
+    "id": 53,
+    "question": "查询访问人气最高的月份及其对应的访问人气值。",
+    "concepts": ["排序", "筛选"],
+    "file_name": "1-8.xlsx",
+    "answer": "2023年10月, 4676989"
+  },
+  {
+    "id": 54,
+    "question": "查询加购热度大于2500000的月份。",
+    "concepts": ["筛选"],
+    "file_name": "1-8.xlsx",
+    "answer": "2023年10月,2023年11月"
+  },
+  {
+    "id": 55,
+    "question": "计算浏览热度的平均值（保留两位小数）。",
+    "concepts": ["求均值"],
+    "file_name": "1-8.xlsx",
+    "answer": "10302048.67"
+  },
+  {
+    "id": 56,
     "question": "查询收藏人气和收藏热度均排名前三的月份。",
     "concepts": ["排序", "筛选"],
     "file_name": "1-8.xlsx",
     "answer": "2023年11月,2023年5月,2023年3月"
   },
   {
+    "id": 57,
+    "question": "统计访问人气超过3500000的月份数量。",
+    "concepts": ["筛选", "计数"],
+    "file_name": "1-8.xlsx",
+    "answer": "2"
+  },
+  {
+    "id": 58,
+    "question": "所有货物的总重量是多少（千克）？",
+    "concepts": ["求和"],
+    "file_name": "1-9.xlsx",
+    "answer": "2534"
+  },
+  {
+    "id": 59,
+    "question": "使用空运运输的货物有多少件？",
+    "concepts": ["计数"],
+    "file_name": "1-9.xlsx",
+    "answer": "8"
+  },
+  {
+    "id": 60,
+    "question": "当前状态为“已签收”的货物数量是多少？",
+    "concepts": ["计数"],
+    "file_name": "1-9.xlsx",
+    "answer": "4"
+  },
+  {
+    "id": 61,
+    "question": "哪位收货人接收了重量最大的货物？",
+    "concepts": ["求最大值"],
+    "file_name": "1-9.xlsx",
+    "answer": "马思琪"
+  },
+  {
+    "id": 62,
+    "question": "查询运输方式为“空运”且状态为“运输中”的货物编号和收货人。",
+    "concepts": ["筛选"],
+    "file_name": "1-9.xlsx",
+    "answer": "20240001, 王纯纯; 20240012, 马思远; 20240018, 马思哲; 20240021, 马思宇"
+  },
+  {
+    "id": 63,
+    "question": "查询重量超过200千克的货物描述和运输方式。",
+    "concepts": ["筛选"],
+    "file_name": "1-9.xlsx",
+    "answer": "家具, 海运; 汽车零部件, 陆运;书籍,铁路运输; 家用电器, 陆运"
+  },
+  {
+    "id": 64,
+    "question": "查询问题/备注中包含“需保险”的货物编号和发货人。",
+    "concepts": ["筛选"],
+    "file_name": "1-9.xlsx",
+    "answer": "20240001, 张三; 20240002, 李四; 20240004, 赵六; 20240025, 马欣欣"
+  },
+  {
+    "id": 65,
+    "question": "统计每种运输方式的货物数量。",
+    "concepts": ["分组", "计数"],
+    "file_name": "1-9.xlsx",
+    "answer": "空运: 8, 陆运: 6, 海运: 5, 铁路运输: 6"
+  },
+  {
+    "id": 66,
+    "question": "查询货物描述为“电子产品”且重量小于30千克的货物编号和收货人。",
+    "concepts": ["筛选"],
+    "file_name": "1-9.xlsx",
+    "answer": "20240002, 王小刚; 20240010, 马思纯; 20240025, 马思斯"
+  },
+  {
+    "id": 67,
+    "question": "查询退货原因中'质量问题'的所有产品名称和订单数量。",
+    "concepts": ["筛选"],
+    "file_name": "2-1.xlsx",
+    "answer": "牛仔裤, 3; 凉鞋, 2; 帽子, 1;"
+  },
+  {
+    "id": 68,
+    "question": "查询订单数量大于等于3的产品名称和订单数量。",
+    "concepts": ["筛选"],
+    "file_name": "2-1.xlsx",
+    "answer": "牛仔裤, 3; 运动裤, 4; 运动鞋, 3;裙子, 5; 泳衣, 6; 手套, 3; 领带, 4; 袜子, 3; 运动鞋, 4; 袜子, 3;"
+  },
+  {
+    "id": 69,
+    "question": "查询6月15日之前下单的订单中，订单数量最多的客户名称。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "2-1.xlsx",
+    "answer": "周翔"
+  },
+  {
+    "id": 70,
+    "question": "查询'衬衫'产品的总订单数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "2-1.xlsx",
+    "answer": "2"
+  },
+  {
+    "id": 71,
+    "question": "查询库存当前量小于10的产品名称和库存当前量。",
+    "concepts": ["筛选"],
+    "file_name": "2-1.xlsx",
+    "answer": "裙子, 5; 运动裤, 5; 太阳镜, 8; 运动裤, 1; 领带, 9;"
+  },
+  {
+    "id": 72,
+    "question": "查询退货原因中'尺寸不符'的所有产品名称和客户名称。",
+    "concepts": ["筛选"],
+    "file_name": "2-1.xlsx",
+    "answer": "衬衫, 王涵; 领带, 钱军; 袜子, 周民生;"
+  },
+  {
+    "id": 73,
+    "question": "查询班级排名前5的学生姓名和得分。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "2-2.xlsx",
+    "answer": "曹玉凤, 88; 陈虹, 87; 严嘉, 87; 李大芬, 86; 康蓓, 85.5;"
+  },
+  {
+    "id": 74,
+    "question": "查询得分大于85分的学生姓名和班级排名。",
+    "concepts": ["筛选"],
+    "file_name": "2-2.xlsx",
+    "answer": "曹玉凤, 1; 陈虹, 2; 严嘉, 2; 李大芬, 4; 康蓓, 5;"
+  },
+  {
+    "id": 75,
+    "question": "查询校次最高的学生姓名。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "2-2.xlsx",
+    "answer": "曹玉凤"
+  },
+  {
+    "id": 76,
+    "question": "查询3班中得分最高的学生姓名。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "2-2.xlsx",
+    "answer": "曹玉凤"
+  },
+  {
+    "id": 77,
+    "question": "查询主观题得分与客观题得分差距最大的学生姓名。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "2-2.xlsx",
+    "answer": "曹玉凤"
+  },
+  {
+    "id": 78,
+    "question": "查询班级排名为1的学生姓名和得分。",
+    "concepts": ["筛选"],
+    "file_name": "2-2.xlsx",
+    "answer": "曹玉凤, 88"
+  },
+  {
+    "id": 79,
+    "question": "查询单位为'和平'的车型有哪些？总收现金额是多少？",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "2-3.xlsx",
+    "answer": "车型：挂车、小货、中货, 总收先金额：4440;"
+  },
+  {
+    "id": 80,
+    "question": "查询日期为11.1的所有车型和收现金额。",
+    "concepts": ["筛选"],
+    "file_name": "2-3.xlsx",
+    "answer": "挂车, 350; 小货, 390; 挂车, 350; 小客, 140; 挂车, 350; 挂车, 350; 小货, 390; 小货, 390; 小客, 140; 小货, 390; 大客, 320;"
+  },
+  {
+    "id": 81,
+    "question": "查询11.7收现金额最高的单位名称。",
+    "concepts": ["筛选", "排序", "聚合"],
+    "file_name": "2-3.xlsx",
+    "answer": "鑫时代"
+  },
+  {
+    "id": 82,
+    "question": "查询小客车型的总收现金额。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "2-3.xlsx",
+    "answer": "5150"
+  },
+  {
+    "id": 83,
+    "question": "查询11.12日的总收现金额。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "2-3.xlsx",
+    "answer": "3560"
+  },
+  {
+    "id": 84,
+    "question": "查询挂车车型的总收现金额。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "2-3.xlsx",
+    "answer": "4830"
+  },
+  {
+    "id": 85,
+    "question": "查询部门为'销售部'的所有员工姓名和实发工资。",
+    "concepts": ["筛选"],
+    "file_name": "2-4.xlsx",
+    "answer": "卫妹妹, 8330.00; 钱静雯, 8350.00; 许银姣, 8750.00; 孔瑞, 8330.00; 孙香秀, 8350.00; 李大秀, 8750.00;"
+  },
+  {
+    "id": 86,
+    "question": "查询实发工资大于8000的员工姓名和部门。",
+    "concepts": ["筛选"],
+    "file_name": "2-4.xlsx",
+    "answer": "卫妹妹, 销售部; 钱静雯, 销售部; 许银姣, 销售部; 孔瑞, 销售部; 孙香秀, 销售部; 李大秀, 销售部;"
+  },
+  {
+    "id": 87,
+    "question": "查询基本工资最高的部门名称。",
+    "concepts": ["筛选", "排序", "聚合"],
+    "file_name": "2-4.xlsx",
+    "answer": "销售部"
+  },
+  {
+    "id": 88,
+    "question": "查询实发工资最高的员工姓名。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "2-4.xlsx",
+    "answer": "许银姣, 李大秀"
+  },
+  {
+    "id": 89,
+    "question": "查询社会保险为420的所有员工姓名和部门。",
+    "concepts": ["筛选"],
+    "file_name": "2-4.xlsx",
+    "answer": "所有员工"
+  },
+  {
+    "id": 90,
+    "question": "查询实发工资最高的部门名称。",
+    "concepts": ["筛选", "排序", "聚合"],
+    "file_name": "2-4.xlsx",
+    "answer": "销售部"
+  },
+  {
+    "id": 91,
+    "question": "查询状态为'闲置'的所有资产名称和当前价值。",
+    "concepts": ["筛选"],
+    "file_name": "2-5.xlsx",
+    "answer": "办公桌, 4387.86; 笔记本, 5739.89; 打印机, 4652.18; 办公桌, 3867.64; 办公桌, 8241.75; 笔记本, 9872.34; 笔记本, 5367.79; 办公桌, 4038.54; 打印机, 6081.1; 办公桌, 2118.21;"
+  },
+  {
+    "id": 92,
+    "question": "查询购入日期为2020年的所有资产名称和当前价值。",
+    "concepts": ["筛选"],
+    "file_name": "2-5.xlsx",
+    "answer": "笔记本, 5951.01; 办公桌, 5138.31; 打印机, 9673.12; 笔记本, 5242; 打印机, 1701.39; 办公桌, 4387.86; 笔记本, 5739.89; 办公桌, 8420.78; 打印机, 4652.18; 笔记本, 3008.49; 打印机, 1692.29; 办公桌, 3867.64;"
+  },
+  {
+    "id": 93,
+    "question": "查询当前价值最高的资产名称。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "2-5.xlsx",
+    "answer": "笔记本"
+  },
+  {
+    "id": 94,
+    "question": "查询预计使用年限为8年的所有资产名称和当前价值。",
+    "concepts": ["筛选"],
+    "file_name": "2-5.xlsx",
+    "answer": "笔记本, 9872.34; 打印机, 9673.12; 办公桌, 8241.75; 打印机, 6081.1; 笔记本, 5951.01; 笔记本, 5739.89; 笔记本, 5445.02, 笔记本, 5367.79, 笔记本, 4783.33; 打印机, 4652.18; 办公桌, 4038.54; 办公桌, 3899.05; 办公桌, 3785.02; 办公桌, 3675.01; 办公桌, 3575.01; 办公桌, 3475.01; 办公桌, 3375.01; 办公桌, 3275.01; 办公桌, 3175.01; 办公桌, 3867.64; 打印机, 2884.26; 办公桌, 2118.21;"
+  },
+  {
+    "id": 95,
+    "question": "查询状态为'使用中'的资产总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "2-5.xlsx",
+    "answer": "14"
+  },
+  {
+    "id": 96,
+    "question": "查询办公桌类资产的平均当前价值。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "2-5.xlsx",
+    "answer": "5630.39"
+  },
+  {
+    "id": 97,
+    "question": "查询投放平台为'微信'的所有广告名称和预算。",
+    "concepts": ["筛选"],
+    "file_name": "2-6.xlsx",
+    "answer": "夏季促销, 5000; 春季新品发布, 3500; 秋季美食节, 3600; 情人节礼物, 4700;"
+  },
+  {
+    "id": 98,
+    "question": "查询预算最高的广告名称和投放平台。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "2-6.xlsx",
+    "answer": "节日优惠, 微博"
+  },
+  {
+    "id": 99,
+    "question": "查询目标受众为'所有人群'的广告中，转化率最高的广告名称。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "2-6.xlsx",
+    "answer": "春节团圆"
+  },
+  {
+    "id": 100,
+    "question": "查询成本每点击CPC低于0.5的所有广告名称和投放平台。",
+    "concepts": ["筛选"],
+    "file_name": "2-6.xlsx",
+    "answer": "黑色星期五, 斗鱼直播; 圣诞狂欢, 爱奇艺; 春节特惠, 抖音; 秋季新品, 百度; "
+  },
+  {
+    "id": 101,
+    "question": "查询点击率CTR大于0.03的所有广告名称和投放日期。",
+    "concepts": ["筛选"],
+    "file_name": "2-6.xlsx",
+    "answer": "春节团圆, 2025-02-10至2025-02-20; 黑色星期五, 2025-11-24至2025-11-27; 春节特惠, 2024-12-01至2024-12-31; 春节红包, 2026-01-21至2026-02-19; 节日优惠, 2024-09-01至2024-09-30; 感恩节礼物, 2025-11-01至2025-11-30; 夏季泳装, 2024-04-01至2024-04-30; 夏季音乐节, 2026-06-01至2026-06-30"
+  },
+  {
+    "id": 102,
+    "question": "查询2024年投放的所有广告的预算总和。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "2-6.xlsx",
+    "answer": "63000"
+  },
+  {
+    "id": 103,
+    "question": "查询时间段为'周三下午'的所有预约人和参会人数。",
+    "concepts": ["筛选"],
+    "file_name": "2-7.xlsx",
+    "answer": "黄强, 18; 赵丽, 8"
+  },
+  {
+    "id": 104,
+    "question": "查询参会人数最多的会议室名称和预约人。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "2-7.xlsx",
+    "answer": "201(10人), 吴强"
+  },
+  {
+    "id": 105,
+    "question": "查询会议室'VIP会议室'的所有预约时间段和参会人数。",
+    "concepts": ["筛选"],
+    "file_name": "2-7.xlsx",
+    "answer": "周三下午, 8; 周一下午, 5; 周四下午, 15; 周四下午, 17;"
+  },
+  {
+    "id": 106,
+    "question": "查询参会人数大于15的所有预约人和会议室。",
+    "concepts": ["筛选"],
+    "file_name": "2-7.xlsx",
+    "answer": "吴强, 201(10人); 李静, 201(10人); 黄强, 301(20人); 赵杰, VIP会议室; 陈娟, 201(10人);"
+  },
+  {
+    "id": 107,
+    "question": "查询预约人'赵丽'的会议室名称和时间段。",
+    "concepts": ["筛选"],
+    "file_name": "2-7.xlsx",
+    "answer": "VIP会议室, 周三下午"
+  },
+  {
+    "id": 108,
+    "question": "查询周一预约的会议室总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "2-7.xlsx",
+    "answer": "7"
+  },
+  {
+    "id": 109,
+    "question": "查询部门为'财务处'的所有员工姓名和总薪资。",
+    "concepts": ["筛选"],
+    "file_name": "2-9.xlsx",
+    "answer": "于鹏, 14323.4; 郑勇, 15287.61; 曹浩, 11228.72; 郑静, 10332.59; 赵燕, 10293.48; 徐鹏, 10110.84;"
+  },
+  {
+    "id": 110,
+    "question": "查询总薪资最高的部门名称。",
+    "concepts": ["筛选", "排序", "聚合"],
+    "file_name": "2-9.xlsx",
+    "answer": "财务处"
+  },
+  {
+    "id": 111,
+    "question": "查询绩效奖金大于4000的员工姓名和部门。",
+    "concepts": ["筛选"],
+    "file_name": "2-9.xlsx",
+    "answer": "郑勇, 财务处; 张丹, 工会; 萧磊, 人事处; 张鹏, 人事处; 陈瑞, 教务处; 赵斌, 信息中心; 曹浩, 财务处; 郑平, 国际交流处; 郑静, 财务处; 赵燕, 财务处; 赵娟, 信息中心"
+  },
+  {
+    "id": 112,
+    "question": "查询考核等级为'优秀'的所有员工姓名和总薪资。",
+    "concepts": ["筛选"],
+    "file_name": "2-9.xlsx",
+    "answer": "张鹏, 13015.34; 郑敏, 12055.61; 程丹, 10885.21; 冯莹, 10705.7; 王磊, 10569.1; 周勇, 10387.46; 林雪, 10314.03; 王秀英, 8172.9"
+  },
+  {
+    "id": 113,
+    "question": "查询在岗状态为'出差'的员工总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "2-9.xlsx",
+    "answer": "5"
+  },
+  {
+    "id": 114,
+    "question": "查询部门'人事处'的平均总薪资。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "2-9.xlsx",
+    "answer": "12506.64"
+  },
+  {
+    "id": 115,
+    "question": "查询所属院系为'工学院'的所有教职工姓名和职称。",
+    "concepts": ["筛选"],
+    "file_name": "3-1.xlsx",
+    "answer": "周强, 助教; 王敏, 讲师; 李娟, 助教; 赵丽, 副教授; 黄伟, 讲师; 陈娜, 副教授; 黄杰, 讲师; 李丽, 副教授"
+  },
+  {
+    "id": 116,
+    "question": "查询总评成绩不及格的课程名称和学生姓名。",
+    "concepts": ["筛选"],
+    "file_name": "3-1.xlsx",
+    "answer": "高等数学, 王娟; 高等数学, 吴娟; 大学英语, 李芳; 高等数学, 刘娟;计算机基础, 刘娟; 计算机基础, 张芳;"
+  },
+  {
+    "id": 117,
+    "question": "查询资产名称为'办公电脑'的总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-1.xlsx",
+    "answer": "8"
+  },
+  {
+    "id": 118,
+    "question": "查询重要程度为'重要'的活动中，参与人数最多的活动名称是什么。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "3-1.xlsx",
+    "answer": "学术报告"
+  },
+  {
+    "id": 119,
+    "question": "查询教室为'A4'的所有课程名称和学生人数。",
+    "concepts": ["筛选"],
+    "file_name": "3-1.xlsx",
+    "answer": "高等数学, 112; 马克思主义原理, 58; 马克思主义原理, 53; 马克思主义原理, 56;"
+  },
+  {
+    "id": 120,
+    "question": "查询所属院系为'文学院'的教职工总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-1.xlsx",
+    "answer": "8"
+  },
+  {
+    "id": 121,
+    "question": "查询英语成绩最高的学生姓名和班级。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "3-2.xlsx",
+    "answer": "范咏, 高三(三)班"
+  },
+  {
+    "id": 122,
+    "question": "查询数学成绩大于140分的学生姓名和籍贯。",
+    "concepts": ["筛选"],
+    "file_name": "3-2.xlsx",
+    "answer": "吕丹, 上海; 朱洪丽, 北京; 严嘉, 新疆; 周文涛, 北京;褚纨, 北京; 杨丽, 北京; 孔丽, 北京; 曹程悦, 北京; 孙香秀, 北京;"
+  },
+  {
+    "id": 123,
+    "question": "查询体育成绩大于85分的河北籍学生姓名。",
+    "concepts": ["筛选"],
+    "file_name": "3-2.xlsx",
+    "answer": "周嘎妹"
+  },
+  {
+    "id": 124,
+    "question": "查询政治、历史、地理三科总分最高的学生姓名。",
+    "concepts": ["筛选", "排序", "聚合"],
+    "file_name": "3-2.xlsx",
+    "answer": "张梅香"
+  },
+  {
+    "id": 125,
+    "question": "查询'高三(二)班'中英语成绩最高的学生姓名。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "3-2.xlsx",
+    "answer": "王元珊"
+  },
+  {
+    "id": 126,
+    "question": "查询语文成绩大于130分且数学成绩大于120分的女学生姓名和班级。",
+    "concepts": ["筛选"],
+    "file_name": "3-2.xlsx",
+    "answer": "张梅香, 高三(二)班; 朱洪丽, 高三(二)班; 孔荔, 高三(三)班, 沈倩, 高三(一)班;"
+  },
+  {
+    "id": 127,
+    "question": "查询一模总分最高的学生学号和班级。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "3-3.xlsx",
+    "answer": "202, 二班"
+  },
+  {
+    "id": 128,
+    "question": "查询语言积累与运用得分大于25分的学生学号和班级。",
+    "concepts": ["筛选"],
+    "file_name": "3-3.xlsx",
+    "answer": "202, 二班; 112, 一班; 119, 一班; 110, 一班; 116, 一班; 113, 一班; 103, 一班;"
+  },
+  {
+    "id": 129,
+    "question": "查询阅读理解与古诗阅读与鉴赏总分最高的学生学号。",
+    "concepts": ["筛选", "排序", "聚合"],
+    "file_name": "3-3.xlsx",
+    "answer": "203"
+  },
+  {
+    "id": 130,
+    "question": "查询作文得分最高的学生学号和班级。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "3-3.xlsx",
+    "answer": "202, 二班"
+  },
+  {
+    "id": 131,
+    "question": "查询'二班'学生的平均一模总分。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-3.xlsx",
+    "answer": "370.33"
+  },
+  {
+    "id": 132,
+    "question": "查询英语和数学总分大于250分的学生学号。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-3.xlsx",
+    "answer": "105; 106; 107; 110; 112; 113; 117; 119; 202; 115; 121; 109; 108; 120"
+  },
+  {
+    "id": 133,
+    "question": "查询考勤状态为'迟到'的员工姓名和日期。",
+    "concepts": ["筛选"],
+    "file_name": "3-4.xlsx",
+    "answer": "吴杰, 2023-10-02; 王娟, 2023-10-03; 吴静, 2023-10-08; 黄静, 2023-10-10; 周娟, 2023-10-21;"
+  },
+  {
+    "id": 134,
+    "question": "查询上班时间最早的员工姓名和时间。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "3-4.xlsx",
+    "answer": "周丽, 08:00; 赵强, 08:00;"
+  },
+  {
+    "id": 135,
+    "question": "查询10月15日之后考勤状态为'正常'的员工总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-4.xlsx",
+    "answer": "14"
+  },
+  {
+    "id": 136,
+    "question": "查询下班时间晚于18:00的员工姓名和日期。",
+    "concepts": ["筛选"],
+    "file_name": "3-4.xlsx",
+    "answer": "王娟, 2023-10-03; 李静, 2023-10-19; 黄静, 2023-10-10; 赵磊, 2023-10-13;"
+  },
+  {
+    "id": 137,
+    "question": "查询10月份考勤状态为'迟到'的员工总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-4.xlsx",
+    "answer": "5"
+  },
+  {
+    "id": 138,
+    "question": "查询上班时间在08:00-08:30之间的员工人数。",
+    "concepts": ["筛选"],
+    "file_name": "3-4.xlsx",
+    "answer": "25"
+  },
+  {
+    "id": 139,
+    "question": "查询总薪酬最高的部门名称。",
+    "concepts": ["筛选", "排序", "聚合"],
+    "file_name": "3-5.xlsx",
+    "answer": "研发部"
+  },
+  {
+    "id": 140,
+    "question": "查询绩效评分大于90分的员工姓名。",
+    "concepts": ["筛选"],
+    "file_name": "3-5.xlsx",
+    "answer": "李小华; 孙伟; 郭静; 朱丽晗; 高强; 黄蓉萱;"
+  },
+  {
+    "id": 141,
+    "question": "查询晋升次数最多的员工姓名和部门。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "3-5.xlsx",
+    "answer": "高强, 研发部"
+  },
+  {
+    "id": 142,
+    "question": "查询出勤率大于95%的员工总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-5.xlsx",
+    "answer": "8"
+  },
+  {
+    "id": 143,
+    "question": "查询基本工资大于10000的员工姓名。",
+    "concepts": ["筛选"],
+    "file_name": "3-5.xlsx",
+    "answer": "高强; 黄蓉萱; 张强; 何瑞; 孙伟; 梅超风"
+  },
+  {
+    "id": 144,
+    "question": "查询离职状态为'未离职'且健康状态为'健康'的员工总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-5.xlsx",
+    "answer": "20"
+  },
+  {
+    "id": 145,
+    "question": "查询第二季度办公费用总和。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-6.xlsx",
+    "answer": "62"
+  },
+  {
+    "id": 146,
+    "question": "查询物流费用最高的月份及金额。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "3-6.xlsx",
+    "answer": "10月, 215"
+  },
+  {
+    "id": 147,
+    "question": "查询第三季度市场费用总和。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-6.xlsx",
+    "answer": "118"
+  },
+  {
+    "id": 148,
+    "question": "查询第四季度销售费用总和。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-6.xlsx",
+    "answer": "369"
+  },
+  {
+    "id": 149,
+    "question": "查询第一季度人力费用总和。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-6.xlsx",
+    "answer": "152"
+  },
+  {
+    "id": 150,
+    "question": "查询产品费用在第二季度的总和。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-6.xlsx",
+    "answer": "89"
+  },
+  {
+    "id": 151,
+    "question": "查询订单状态为'已发货'且所属销售团队为'华南区'的所有订单编号和客户名称。",
+    "concepts": ["筛选"],
+    "file_name": "3-7.xlsx",
+    "answer": "DD_240501_012, 简玉英; DD_240501_057, 王婷婷;"
+  },
+  {
+    "id": 152,
+    "question": "查询所属销售团队为'华北区'的订单中，订单总额最高的客户名称。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "3-7.xlsx",
+    "answer": "曹先生"
+  },
+  {
+    "id": 153,
+    "question": "查询交货日期在6月1日之后的订单总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-7.xlsx",
+    "answer": "34"
+  },
+  {
+    "id": 154,
+    "question": "查询已收款总额最高的销售负责人。",
+    "concepts": ["筛选", "排序", "聚合"],
+    "file_name": "3-7.xlsx",
+    "answer": "朱秀娟"
+  },
+  {
+    "id": 155,
+    "question": "查询待排产总数大于50的四月的所有订单编号和客户名称。",
+    "concepts": ["筛选"],
+    "file_name": "3-7.xlsx",
+    "answer": "DD_240402_001, 曹先生; DD_240227_002, 陈女士; DD_240329_001, 秦灿灿"
+  },
+  {
+    "id": 156,
+    "question": "查询订单状态为'部分发货'且延期情况为'延期'的所有订单编号和客户。",
+    "concepts": ["筛选"],
+    "file_name": "3-7.xlsx",
+    "answer": "DD_240501_028, 熊彬; DD_240501_023, 谭丽; DD_240501_055, 王燕; DD_240501_072, 王小红; DD_240501_024, 张玉华; DD_240227_002, 陈女士; DD_240501_035, 章伟; DD_240501_052, 黄峰; DD_240501_020, 陈健; DD_240501_061, 王淑珍; DD_240501_060, 宋霞 ; DD_240501_048 ,张小红"
+  },
+  {
+    "id": 157,
+    "question": "查询订单状态为'未发货'且所属销售团队为'华南区'的所有订单编号和客户名称。",
+    "concepts": ["筛选"],
+    "file_name": "3-7.xlsx",
+    "answer": "DD_240501_022, 詹秀云; DD_240409_001, 严先生; DD_240417_001, 孙翠花;"
+  },
+  {
+    "id": 158,
+    "question": "查询所属销售团队为'华东区'的订单中，订单总额最高的客户名称。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "3-7.xlsx",
+    "answer": "丁伟"
+  },
+  {
+    "id": 159,
+    "question": "查询交货日期在5月15日之前的订单总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-7.xlsx",
+    "answer": "24"
+  },
+  {
+    "id": 160,
+    "question": "查询待发货总数最高的销售负责人。",
+    "concepts": ["筛选", "排序", "聚合"],
+    "file_name": "3-7.xlsx",
+    "answer": "沈倩"
+  },
+  {
+    "id": 161,
+    "question": "查询下单总数大于1000的所有订单编号和客户名称。",
+    "concepts": ["筛选"],
+    "file_name": "3-7.xlsx",
+    "answer": "DD_240402_001, 曹先生; DD_240227_002, 陈女士;"
+  },
+  {
+    "id": 162,
+    "question": "查询订单状态为'部分发货'且已收款总额大于300000元的所有订单编号和客户。",
+    "concepts": ["筛选"],
+    "file_name": "3-7.xlsx",
+    "answer": "DD_240501_049, 李晶; DD_240501_072, 王小红; DD_240501_046, 李辉; DD_240501_024, 张玉华; DD_240501_036, 姜荣; DD_240227_002, 陈女士; DD_240501_016, 刘桂珍; DD_240501_052, 黄峰; DD_240501_037, 张晶; DD_240501_020, 陈健; DD_240501_035, 章伟;"
+  },
+  {
+    "id": 163,
+    "question": "查询部门为'财务部'的所有员工姓名和基本工资。",
+    "concepts": ["筛选"],
+    "file_name": "3-9.xlsx",
+    "answer": "Kristi Hansen, 19572.47; Joel Boyer, 16268.39; Michelle Collier, 13177.56; Kathryn Jones, 18851.54; Claudia Johnson, 16968.43; Mr. Jason Davis MD, 18319.41; Katherine Patel, 14984.13; Bonnie Wilson, 9645.72;"
+  },
+  {
+    "id": 164,
+    "question": "查询基本工资最高的部门名称。",
+    "concepts": ["筛选", "排序", "聚合"],
+    "file_name": "3-9.xlsx",
+    "answer": "财务部"
+  },
+  {
+    "id": 165,
+    "question": "查询职位为'工程师'的所有员工姓名和部门。",
+    "concepts": ["筛选"],
+    "file_name": "3-9.xlsx",
+    "answer": "Kathryn Jones, 财务部; Kelli Hill, 研发部; David Bates, 人事部;"
+  },
+  {
+    "id": 166,
+    "question": "查询入职日期在2024年之后的员工总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-9.xlsx",
+    "answer": "17"
+  },
+  {
+    "id": 167,
+    "question": "查询性别为'女'且年龄大于40的员工姓名和职位。",
+    "concepts": ["筛选"],
+    "file_name": "3-9.xlsx",
+    "answer": " Kathryn Jones, 工程师; Claudia Johnson, 主管; Jason Bishop, 市场部; Jacob Williams, 高级工程师; Charles Reyes, 主管; David Bates, 工程师"
+  },
+  {
+    "id": 168,
+    "question": "查询市场部员工的平均基本工资。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "3-9.xlsx",
+    "answer": "14399.276"
+  },
+  {
+    "id": 169,
+    "question": "查询状态为'延误'的航班的航班号、航空公司和目的地。",
+    "concepts": ["筛选"],
+    "file_name": "4-1.xlsx",
+    "answer": "CA1895, 海南航空, New Lorettaberg; CZ7923, 南方航空, Parkerbury; MU4744, 厦门航空, Port Nichole; MU9351, 厦门航空, Guzmanfurt;"
+  },
+  {
+    "id": 170,
+    "question": "查询由'海南航空'运营的所有航班的航班号和状态。",
+    "concepts": ["筛选"],
+    "file_name": "4-1.xlsx",
+    "answer": "HU9636, 已降落; CA1895, 延误; CZ9302, 已起飞; MF2813, 已降落; MF2917, 取消; MU4708, 准时; MF9317, 已降落"
+  },
+  {
+    "id": 171,
+    "question": "查询计划起飞时间在2025-07-04 10:00:00之后的航班号。",
+    "concepts": ["筛选"],
+    "file_name": "4-1.xlsx",
+    "answer": "CZ1785; CA8238; HU9636; CZ6021; MU7755; MU4677; MF9895; CZ6675; MF2917; MU4744; CZ4556; MU3805; MF5029; CA6883"
+  },
+  {
+    "id": 172,
+    "question": "查询使用'空客A350'机型的航班中，实际到达时间最早的航班号。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-1.xlsx",
+    "answer": "HU6632"
+  },
+  {
+    "id": 173,
+    "question": "查询登机口为'B'开头的所有航班的航班号。",
+    "concepts": ["筛选"],
+    "file_name": "4-1.xlsx",
+    "answer": "HU6632; CA5824; MU1400; CA8238; CA1895; MU7755; CA7506; CZ9302; MU3145; HU2638; MF9895; MF2917; MU4744; HU3176"
+  },
+  {
+    "id": 174,
+    "question": "查询状态为'取消'的航班数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "4-1.xlsx",
+    "answer": "5"
+  },
+  {
+    "id": 175,
+    "question": "查询考勤状态为'迟到'的员工姓名和日期。",
+    "concepts": ["筛选"],
+    "file_name": "4-2.xlsx",
+    "answer": "Carolyn Walker DDS, 2025-06-25; Jennifer Harding, 2025-07-02; Mitchell Baird, 2025-06-04; Mrs. Rebecca Carney, 2025-06-07;"
+  },
+  {
+    "id": 176,
+    "question": "查询上班时间最早的员工姓名和时间。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-2.xlsx",
+    "answer": "Shelby Vazquez, 8:01:00"
+  },
+  {
+    "id": 177,
+    "question": "查询6月15日之后考勤状态为'正常'的员工总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "4-2.xlsx",
+    "answer": "2"
+  },
+  {
+    "id": 178,
+    "question": "查询下班时间晚于17:30的员工姓名和日期。",
+    "concepts": ["筛选"],
+    "file_name": "4-2.xlsx",
+    "answer": "Veronica Hernandez, 2025-06-05; Gregory Brown, 2025-06-29; Martin Mcdaniel, 2025-06-16; Shelby Blackwell, 2025-06-29; Randall Castro, 2025-06-10; William Reese,2025-06-22; Andrew Durham, 2025-06-27; Jennifer Cisneros, 2025-06-11; Patrick Williams, 2025-06-29;"
+  },
+  {
+    "id": 179,
+    "question": "查询6月份考勤状态为'缺勤'的员工总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "4-2.xlsx",
+    "answer": "8"
+  },
+  {
+    "id": 180,
+    "question": "查询上班时间在08:00-08:30之间的员工姓名。",
+    "concepts": ["筛选"],
+    "file_name": "4-2.xlsx",
+    "answer": "Shelby Vazquez; Robert Yu; Mr. Kevin Howell MD; Andrew Durham; Jorge Shaw; Karen Lester; Alexis Peterson; Laura Greer; Stanley Reynolds; Brooke Jacobs; Randall Castro; Sandra Camacho; Jennifer Cisneros; Mitchell Baird; Jennifer Harding; Veronica Hernandez; James Owens; Gina Olson;"
+  },
+  {
+    "id": 181,
+    "question": "查询状态为'已预约'的所有男性患者姓名和科室。",
+    "concepts": ["筛选"],
+    "file_name": "4-5.xlsx",
+    "answer": "Stacy Gonzales, 儿科; Darius Brady, 口腔科; Andrew Duncan, 眼科; Michael Rios, 儿科;"
+  },
+  {
+    "id": 182,
+    "question": "查询科室为'口腔科'的所有医生姓名和预约时间。",
+    "concepts": ["筛选"],
+    "file_name": "4-5.xlsx",
+    "answer": "Dana Henderson, 2025-06-27 19:17:52; John Romero, 2025-07-04 8:21:57; Lisa Silva, 2025-07-06 5:10:48; Kimberly Riggs, 2025-07-01 19:18:56; Sarah Bradford, 2025-07-07 2:26:31; Christina Short, 2025-07-04 2:14:00; Kenneth Ramirez, 2025-06-30 12:24:54; Amy Lewis, 2025-07-03 6:33:37; Benjamin Berry, 2025-07-01 3:51:34; Laura Wilson, 2025-07-09 17:59:00; Gary Reyes, 2025-07-02 21:05:59; James Hernandez, 2025-06-27 20:12:36; Richard Hancock, 2025-07-03 8:46:27; Timothy Snyder, 2025-06-29 18:23:33"
+  },
+  {
+    "id": 183,
+    "question": "查询症状描述包含'water'的患者姓名和年龄。",
+    "concepts": ["筛选"],
+    "file_name": "4-5.xlsx",
+    "answer": "Martin Jordan, 19;"
+  },
+  {
+    "id": 184,
+    "question": "查询是否医保为'是'的患者总数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "4-5.xlsx",
+    "answer": "29"
+  },
+  {
+    "id": 185,
+    "question": "查询年龄最大的患者姓名和年龄。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-5.xlsx",
+    "answer": "Mary Johnson, 79; Randy Nelson, 79; Emily Rivera, 79"
+  },
+  {
+    "id": 186,
+    "question": "查询预约时间最早的患者姓名和预约时间。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-5.xlsx",
+    "answer": "James Adkins, 2025-06-27 6:57:48;"
+  },
+  {
+    "id": 187,
+    "question": "查询类型为'动作'的所有电影名称和票房。",
+    "concepts": ["筛选"],
+    "file_name": "4-6.xlsx",
+    "answer": "Ameliorated leadingedge algorithm, 22238.66; Visionary regional Graphical User Interface, 13730.79; Team-oriented optimizing encryption, 1041.82; Enterprise-wide asynchronous budgetary management, 36358.27; Integrated demand-driven frame, 22008.26; Inverse holistic data-warehouse, 41667.29"
+  },
+  {
+    "id": 188,
+    "question": "查询票房最高的电影名称和导演。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-6.xlsx",
+    "answer": "Proactive zero tolerance system engine, Bryan Butler"
+  },
+  {
+    "id": 189,
+    "question": "查询评分最高的电影名称和国家/地区。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-6.xlsx",
+    "answer": "Multi-layered even-keeled moderator, 日本;"
+  },
+  {
+    "id": 190,
+    "question": "查询国家/地区为'印度'的电影总票房。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "4-6.xlsx",
+    "answer": "162763.79"
+  },
+  {
+    "id": 191,
+    "question": "查询上座率最高的电影名称和类型。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-6.xlsx",
+    "answer": "Expanded local open system, 恐怖"
+  },
+  {
+    "id": 192,
+    "question": "查询排片占比最高的电影类型。",
+    "concepts": ["筛选", "排序", "聚合"],
+    "file_name": "4-6.xlsx",
+    "answer": "爱情"
+  },
+  {
+    "id": 193,
+    "question": "查询需要补货为'TRUE'的所有产品名称和库存数量。",
+    "concepts": ["筛选"],
+    "file_name": "4-3.xlsx",
+    "answer": "Measure 仪器, 1; Can 产品, 40; Institution 仪器, 65; Upon 工具, 45; Research 配件, 87; Dark 工具, 13; We 仪器, 13; Five 仪器, 5; Although 配件, 20;"
+  },
+  {
+    "id": 194,
+    "question": "查询供应商为'Sanders LLC'的所有产品名称和类别。",
+    "concepts": ["筛选"],
+    "file_name": "4-3.xlsx",
+    "answer": "Last 配件, 办公;"
+  },
+  {
+    "id": 195,
+    "question": "查询单价最高的3个产品的名称和单价。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-3.xlsx",
+    "answer": "Add 仪器, 484.11; As 配件, 481.83; From 仪器, 480.45;"
+  },
+  {
+    "id": 196,
+    "question": "查询承运公司为'京东物流'的所有运单号和收货人。",
+    "concepts": ["筛选"],
+    "file_name": "4-4.xlsx",
+    "answer": "YT2925482186, Danielle Robinson; YT9498012907, Craig Johnson; YT5155151132, Emily Flores; YT7118172969, William Morrison; YT8115650473, Patricia Valenzuela; YT3566143086, Maria Garcia; YT4057858046, Nicholas Smith; YT5627981140, Sharon Perry; YT8805028119, William Barber;"
+  },
+  {
+    "id": 197,
+    "question": "查询运费最高的运单的运单号和运费。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-4.xlsx",
+    "answer": "YT2487544324, 99.75"
+  },
+  {
+    "id": 198,
+    "question": "查询当前状态为'已签收'的运单的运单号和收货人。",
+    "concepts": ["筛选"],
+    "file_name": "4-4.xlsx",
+    "answer": "YT2925482186, Danielle Robinson; YT9341401015, Ashley Mejia; YT7014755110, Robert Mahoney; YT3595806270, Tina Harris; YT5158594336, Brianna Webster; YT4057858046, Steven Johnson;"
+  },
+  {
+    "id": 199,
+    "question": "查询类型为'科幻'的所有电影名称和评分。",
+    "concepts": ["筛选"],
+    "file_name": "4-6.xlsx",
+    "answer": "Enhanced empowering definition, 5.4; Profit-focused discrete conglomeration, 9.8; Horizontal mobile alliance, 5.6"
+  },
+  {
+    "id": 200,
+    "question": "查询评分大于8.0的电影名称和导演。",
+    "concepts": ["筛选"],
+    "file_name": "4-6.xlsx",
+    "answer": "Profit-focused needs-based superstructure, Michelle Powers; Function-based multimedia artificial intelligence, Tara Nguyen; Profit-focused discrete conglomeration, Nicole Jensen PhD; Total demand-driven challenge, Martin Bauer; Team-oriented optimizing encryption, Ernest Crawford; Multi-channeled full-range utilization, Scott Arroyo; Proactive zero tolerance system engine, Bryan Butler; Multi-layered dedicated protocol, Wendy Mendoza; Enterprise-wide asynchronous budgetary management, Tiffany Banks; Multi-layered even-keeled moderator, Randy Miles; Monitored incremental workforce, Raymond Sanford;"
+  },
+  {
+    "id": 201,
+    "question": "查询上座率最高的电影所属国家/地区。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-6.xlsx",
+    "answer": "美国"
+  },
+  {
+    "id": 202,
+    "question": "查询国家/地区为'美国'的电影平均评分。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "4-6.xlsx",
+    "answer": "7.03"
+  },
+  {
+    "id": 203,
+    "question": "查询排片占比大于35%的电影名称和类型。",
+    "concepts": ["筛选"],
+    "file_name": "4-6.xlsx",
+    "answer": "Multi-layered dedicated protocol, 爱情; Function-based multimedia artificial intelligence, 爱情; Object-based leadingedge database, 爱情; Multi-layered dedicated protocol, 爱情; Reactive interactive superstructure, 恐怖; Configurable interactive encoding, 悬疑"
+  },
+  {
+    "id": 204,
+    "question": "查询票房收入最高的电影类型。",
+    "concepts": ["筛选", "排序", "聚合"],
+    "file_name": "4-6.xlsx",
+    "answer": "悬疑"
+  },
+  {
+    "id": 205,
+    "question": "查询海淀区的商铺房源的所有信息。",
+    "concepts": ["筛选"],
+    "file_name": "4-7.xlsx",
+    "answer": "RE1070012, Yet who shoulder police statement sell international., 商铺, 海淀区, 149.1, 248, 92327.6, 西南, 简装, 7/21, 2025-07-01, Anthony Sutton, +1-793-558-7665x7217; RE3108312, Front cup scientist store remember establish later reality., 商铺, 海淀区, 111.1, 2458.9, 88767.2, 西北, 精装, 18/32, 2025-06-25, Michael Patel, 760.944.1037x826;"
+  },
+  {
+    "id": 206,
+    "question": "查询价格最高的前3个房源的标题和价格。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-7.xlsx",
+    "answer": "Weight run then home., 2956.1; Too exactly run send however citizen., 2815.5; Old three end lose than design., 2756.1;"
+  },
+  {
+    "id": 207,
+    "question": "查询面积大于200㎡的公寓房源的区域和面积。",
+    "concepts": ["筛选"],
+    "file_name": "4-7.xlsx",
+    "answer": "西城区, 214.1; 通州区, 240; 东城区, 203.8; 东城区, 232.8;海淀区, 265.7;"
+  },
+  {
+    "id": 208,
+    "question": "查询单价最高的毛坯装修房源的标题和单价。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-7.xlsx",
+    "answer": "White newspaper leg contain., 97933.6"
+  },
+  {
+    "id": 209,
+    "question": "查询西城区的商铺中价格低于1000万的房源编号和价格。",
+    "concepts": ["筛选"],
+    "file_name": "4-7.xlsx",
+    "answer": "RE6062192, 381.5;"
+  },
+  {
+    "id": 210,
+    "question": "查询2025-06-30之后发布的所有简装房源的标题和发布时间。",
+    "concepts": ["筛选"],
+    "file_name": "4-7.xlsx",
+    "answer": "Yet who shoulder police statement sell international., 2025-07-01;"
+  },
+  {
+    "id": 211,
+    "question": "查询状态为'已取消'的所有订单的桌号和菜品。",
+    "concepts": ["筛选"],
+    "file_name": "4-8.xlsx",
+    "answer": "T14, 清蒸鱼, 水煮鱼; T2, 红烧肉; T10, 糖醋排骨, 麻婆豆腐, 水煮鱼; T15, 糖醋排骨, 回锅肉, 水煮鱼, 麻婆豆腐; T14, 糖醋排骨; T17, 回锅肉; T18, 糖醋排骨, 水煮鱼, 回锅肉; T20, 清蒸鱼, 回锅肉, 麻婆豆腐, 宫保鸡丁;"
+  },
+  {
+    "id": 212,
+    "question": "查询总价最高的订单的桌号、菜品和总价。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-8.xlsx",
+    "answer": "T6, 水煮鱼, 484.47"
+  },
+  {
+    "id": 213,
+    "question": "查询包含'水煮鱼'菜品的桌号T1的所有订单的服务员和下单时间。",
+    "concepts": ["筛选"],
+    "file_name": "4-8.xlsx",
+    "answer": "Robert Watson, 2025-07-03 13:41:54; Christopher Willis, 2025-07-03 2:17:21; Ronald Hodges, 2025-07-03 4:08:17"
+  },
+  {
+    "id": 214,
+    "question": "查询由服务员'Jennifer Fields'处理的所有订单的桌号和菜品。",
+    "concepts": ["筛选"],
+    "file_name": "4-8.xlsx",
+    "answer": "T8, 回锅肉;"
+  },
+  {
+    "id": 215,
+    "question": "查询总价超过400元的订单中，状态为'已完成'的订单的桌号和总价。",
+    "concepts": ["筛选"],
+    "file_name": "4-8.xlsx",
+    "answer": "T1, 454.11; T16, 443.39; T20, 438.45; T16, 423.09; T5, 407.94;"
+  },
+  {
+    "id": 216,
+    "question": "查询数量为3的已取消的订单的桌号和菜品。",
+    "concepts": ["筛选"],
+    "file_name": "4-8.xlsx",
+    "answer": "T15, 糖醋排骨, 回锅肉, 水煮鱼, 麻婆豆腐;T18, 糖醋排骨, 水煮鱼, 回锅肉"
+  },
+  {
+    "id": 217,
+    "question": "查询单价超过1800元/件的所有产品的订单ID、产品名称和单价。",
+    "concepts": ["筛选"],
+    "file_name": "4-9.xlsx",
+    "answer": "ORD1006, 平板, 1900.03; ORD1013, 笔记本电脑, 1822.91; ORD1015, 笔记本电脑, 1867.66; ORD1019, 笔记本电脑, 1881.75; ORD1025, 显示器, 1803.08; ORD1033, 手机,1925.52; ORD1037, 笔记本电脑, 1963.5; ORD1039, 显示器, 1823.07;"
+  },
+  {
+    "id": 218,
+    "question": "查询耳机类目中数量最少的订单的订单ID和数量。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-9.xlsx",
+    "answer": "ORD1018, 1; ORD1045, 1"
+  },
+  {
+    "id": 219,
+    "question": "查询华中地区的手机订单的订单ID和总金额。",
+    "concepts": ["筛选"],
+    "file_name": "4-9.xlsx",
+    "answer": "ORD1011, 352.52; ORD1017, 551.47; ORD1021, 770.11; ORD1023, 874.86; ORD1024, 1558.72; ORD1034, 236.2; ORD1041, 3281.56; ORD1042, 456.72; ORD1045, 629.33"
+  },
+  {
+    "id": 220,
+    "question": "查询2025年6月下单的笔记本电脑订单的订单ID和地区。",
+    "concepts": ["筛选"],
+    "file_name": "4-9.xlsx",
+    "answer": "ORD1008, 华北; ORD1036, 华北; ORD1044, 华南;"
+  },
+  {
+    "id": 221,
+    "question": "查询平板类目中单价最低的订单的订单ID和单价。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "4-9.xlsx",
+    "answer": "ORD1017, 551.47"
+  },
+  {
+    "id": 222,
+    "question": "查询2024年8月下单的所有订单的订单ID和产品名称。",
+    "concepts": ["筛选"],
+    "file_name": "4-9.xlsx",
+    "answer": "ORD1002, 笔记本电脑; ORD1026, 手机; ORD1032, 耳机; ORD1042, 显示器"
+  },
+  {
+    "id": 223,
+    "question": "查询互动率超过14%的所有内容的平台、内容类型和互动率。",
+    "concepts": ["筛选"],
+    "file_name": "5-1.xlsx",
+    "answer": "微信, 直播, 14.87; 小红书, 故事, 14.39; B站, 视频, 14.97; 抖音, 直播, 14.98; 微信, 故事, 14.63; "
+  },
+  {
+    "id": 224,
+    "question": "查询点赞数最高的内容的作者和内容ID。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "5-1.xlsx",
+    "answer": "Brooke Turner, CM6011707"
+  },
+  {
+    "id": 225,
+    "question": "查询微博平台中观看数超过50000的内容的作者和观看数。",
+    "concepts": ["筛选"],
+    "file_name": "5-1.xlsx",
+    "answer": "Brandon Kerr, 64372; Christopher Callahan, 98598; Emily Wilson, 89394; Timothy Alvarez, 60143; Elizabeth Williams, 63857; Kelsey Riggs, 97198; Amy Davenport, 83651; Michael Bradley, 70911; Robert Sims, 53306; Austin Rodriguez, 73102;"
+  },
+  {
+    "id": 226,
+    "question": "查询热门标签包含'money'的内容的平台和内容类型。",
+    "concepts": ["筛选"],
+    "file_name": "5-1.xlsx",
+    "answer": "微信, 直播; 小红书, 文字;"
+  },
+  {
+    "id": 227,
+    "question": "查询评论数超过4500的内容的作者和评论数。",
+    "concepts": ["筛选"],
+    "file_name": "5-1.xlsx",
+    "answer": "Michael Bradley, 4793; Luis Beck, 4780; Emily Wilson, 4802; James Reid, 4586; Robert Nash, 4887; Marie Barnes, 4552; Kristen Ball, 4815; Brittney Brown, 4999; Paula Livingston, 4614; David Barrera, 4838; Amy Harrison, 4846; "
+  },
+  {
+    "id": 228,
+    "question": "查询B站平台中内容类型为'故事'的内容的发布时间和互动率。",
+    "concepts": ["筛选"],
+    "file_name": "5-1.xlsx",
+    "answer": "2025-07-02 15:05:48, 9.65; 2025-06-29 6:21:18, 13.59; 2025-07-02 9:38:05, 5.01; 2025-06-30 13:58:30, 0.51;"
+  },
+  {
+    "id": 229,
+    "question": "查询盈亏金额为负值（亏损）的交易中，亏损比例最小的交易ID。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "5-2.xlsx",
+    "answer": "T202507040045"
+  },
+  {
+    "id": 230,
+    "question": "查询盈亏比例大于15%的所有交易的交易ID和盈亏比例。",
+    "concepts": ["筛选"],
+    "file_name": "5-2.xlsx",
+    "answer": "T202507040019, 18.5; T202507040041, 16.23; T202507040032, 19.37; T202507040034, 19.9; T202507040044, 18.82; T202507040046, 17.86; T202507040049, 16.37;"
+  },
+  {
+    "id": 231,
+    "question": "查询交易类型为'买入'且盈亏金额最高的交易的交易ID和股票名称。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "5-2.xlsx",
+    "answer": "T202507040043, Le PLC"
+  },
+  {
+    "id": 232,
+    "question": "查询股票代码为'MSFT'的所有交易的交易ID和交易日期。",
+    "concepts": ["筛选"],
+    "file_name": "5-2.xlsx",
+    "answer": "T202507040007, 2025-06-27; T202507040011, 2025-06-04; T202507040019, 2025-06-07; T202507040025, 2025-06-15; T202507040026, 2025-06-12; T202507040032, 2025-06-25; T202507040033, 2025-07-01;"
+  },
+  {
+    "id": 233,
+    "question": "查询交易数量大于500的交易中，交易金额最高的交易ID。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "5-2.xlsx",
+    "answer": "T202507040002"
+  },
+  {
+    "id": 234,
+    "question": "查询当前价格高于交易价格的交易数量。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "5-2.xlsx",
+    "answer": "28"
+  },
+  {
+    "id": 235,
+    "question": "查询平均分超过80分的学生中，总分最高的学生姓名。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "5-3.xlsx",
+    "answer": "James Young"
+  },
+  {
     "id": 236,
+    "question": "查询平均分大于80分的学生姓名和班级。",
+    "concepts": ["筛选"],
+    "file_name": "5-3.xlsx",
+    "answer": "Brenda Robinson, 四班; Heather Schneider, 二班; Jessica Larson, 四班; James Young, 三班; Claudia Andrews, 一班; James Young, 三班;"
+  },
+  {
+    "id": 237,
+    "question": "查询数学成绩最高的学生姓名和数学成绩。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "5-3.xlsx",
+    "answer": "Heather Schneider, 99"
+  },
+  {
+    "id": 238,
+    "question": "查询生物成绩低于60分的学生姓名和班级。",
+    "concepts": ["筛选"],
+    "file_name": "5-3.xlsx",
+    "answer": "Danielle Cain, 一班; Debra Thomas, 一班; Kimberly Lee, 三班; Kenneth Todd, 二班; Ryan Moreno, 三班; Brian Key, 四班; Michael Mack, 一班;"
+  },
+  {
+    "id": 239,
+    "question": "查询总分排名前3的学生姓名。",
+    "concepts": ["筛选", "排序"],
+    "file_name": "5-3.xlsx",
+    "answer": "James Young; Claudia Andrews; Jessica Larson;"
+  },
+  {
+    "id": 240,
+    "question": "查询一班学生的平均总分。",
+    "concepts": ["筛选", "聚合"],
+    "file_name": "5-3.xlsx",
+    "answer": "427.83"
+  },
+  {
+    "id": 241,
+    "question": "查询语文和英语成绩都超过90分的学生姓名和班级。",
+    "concepts": ["筛选"],
+    "file_name": "5-3.xlsx",
+    "answer": "James Young, 三班;"
+  },
+  {
+    "id": 242,
+    "question": "查询订单状态为'已完成'的订单编号和客户姓名。",
+    "concepts": ["筛选"],
+    "file_name": "3-8.xlsx",
+    "answer": "EC202507040001, Michael Adams; EC202507040002, Kirk Carey; EC202507040013, Dr. Julie Koch; EC202507040014, Sarah Landry; EC202507040016, Timothy Brady; EC202507040029, Crystal Green; EC202507040032, Derek Beltran; EC202507040034, Melissa Miller; EC202507040038, John Miranda; EC202507040043, Abigail King DVM; EC202507040045, Tyrone Taylor; EC202507040050, Jessica Williams; EC202507040051, Frank Huber; EC202507040058, Monique Arroyo; EC202507040059, Michael Smith; EC202507040060, Mark Morales; EC202507040061, Kimberly Jensen; EC202507040068, Christopher Hall; EC202507040069, Abigail Patel; EC202507040071, Susan Jordan; EC202507040085, Michael Munoz; EC202507040090, Amanda Williamson; EC202507040091, Christopher Jones; EC202507040095, Cynthia Miller"
+  },
+  {
+    "id": 243,
+    "question": "查询订单金额大于5000且小于7000的订单编号和客户姓名。",
+    "concepts": ["筛选"],
+    "file_name": "3-8.xlsx",
+    "answer": "EC202507040003, Alexander Woods; EC202507040012, Richard Carson; EC202507040013, Dr. Julie Koch; EC202507040018, Michael Patterson; EC202507040020, Tammy Brown; EC202507040028, Danielle Nelson; EC202507040034, Melissa Miller; EC202507040038, John Miranda; EC202507040040, Veronica Ramirez; EC202507040042, Derrick Bentley; EC202507040046, Shawna Evans; EC202507040051, Frank Huber; EC202507040060, Mark Morales; EC202507040069, Abigail Patel; EC202507040082, Shawn Reyes; EC202507040093, Daniel Jones "
+  },
+  {
+    "id": 244,
+    "question": "查询支付方式为'银行卡'且订单状态为'已退款'的订单编号和客户姓名。",
+    "concepts": ["筛选"],
+    "file_name": "3-8.xlsx",
+    "answer": "EC202507040008, Ashley Phillips; EC202507040021, Melissa Pace; EC202507040026, Daniel Novak"
+  },
+  {
+    "id": 245,
     "question": "查询每个部门的员工人数、平均薪资，并按平均薪资从高到低排序，显示部门名称。",
     "concepts": ["分组", "聚合", "连接", "排序"],
     "file_name": "5-4-1.xlsx, 5-4-2.xlsx",
     "answer": "Engineering: 5人, 平均薪资72000; Sales: 6人, 平均薪资63333.33; HR: 4人, 平均薪资59500; Marketing: 5人, 平均薪资56600"
   },
   {
-    "id": 237,
+    "id": 246,
     "question": "找出薪资高于其所在部门平均薪资的所有员工姓名及其部门名称。",
     "concepts": ["连接", "子查询", "筛选"],
     "file_name": "5-4-1.xlsx, 5-4-2.xlsx",
     "answer": "Laura Baker (Sales), Paul Foster (Sales), Victoria White (Sales), Frank Martinez (Marketing), Nancy Davis (Marketing), Sarah Harris (Marketing), Olivia Evans (Engineering), Thomas Hernandez (Engineering), Michael Carter (HR), Rachel Garcia (HR)"
   },
   {
-    "id": 238,
+    "id": 247,
     "question": "列出所有经理（manager_id）在员工表中存在的部门名称和经理姓名。",
     "concepts": ["连接", "筛选"],
     "file_name": "5-4-1.xlsx, 5-4-2.xlsx",
     "answer": "Sales: Alice Smith; Marketing: Bob Johnson; Engineering: Charlie Brown; HR: David Lee; Finance: Emily Clark; IT: Frank Martinez; Operations: Grace Taylor; Research: Hannah Wilson; Customer Service: Ian Moore; Logistics: Jack King"
   },
   {
-    "id": 239,
+    "id": 248,
     "question": "统计每个部门中薪资最高的员工姓名、薪资及部门名称，并按部门名称排序。",
     "concepts": ["连接", "分组", "聚合", "排序"],
     "file_name": "5-4-1.xlsx, 5-4-2.xlsx",
     "answer": "Engineering: Thomas Hernandez, 74000; HR: Rachel Garcia, 61000; Marketing: Sarah Harris, 58000; Sales: Victoria White, 66000"
   },
   {
-    "id": 240,
+    "id": 249,
     "question": "找出薪资在60000以上且属于销售或工程部的员工姓名、薪资和部门名称。",
     "concepts": ["连接", "筛选", "逻辑条件"],
     "file_name": "5-4-1.xlsx, 5-4-2.xlsx",
     "answer": "Rachel Garcia (HE, 61000), David Lee (Sales, 62000), Hannah Wilson (Sales, 63000), Laura Baker (Sales, 64000), Paul Foster (Sales, 65000), Victoria White (Sales, 66000), Charlie Brown (Engineering, 70000), Grace Taylor (Engineering, 71000), Kelly Adams (Engineering, 72000), Olivia Evans (Engineering, 73000), Thomas Hernandez (Engineering, 74000)"
   },
-  {
-    "id": 241,
+   {
+    "id": 250,
     "question": "查询每个班级的学生人数和该班级开设的课程数量，按班级ID排序。",
     "concepts": ["分组", "聚合", "连接"],
     "file_name": "5-5-1.xlsx, 5-5-2.xlsx",
     "answer": "班级1: 7名学生, 7门课程; 班级2: 7名学生, 7门课程; 班级3: 6名学生, 6门课程"
   },
   {
-    "id": 242,
+    "id": 251,
     "question": "查询每个班级的平均年龄和课程数量，按班级ID排序。",
     "concepts": ["分组", "聚合", "连接"],
     "file_name": "5-5-1.xlsx, 5-5-2.xlsx",
     "answer": "班级1: 平均年龄18岁, 7门课程; 班级2: 平均年龄19岁, 7门课程; 班级3: 平均年龄17岁, 6门课程"
   },
   {
-    "id": 243,
+    "id": 252,
     "question": "查询每个班级中课程名称包含'数学'或'物理'的课程数量。",
     "concepts": ["连接", "筛选", "聚合"],
     "file_name": "5-5-1.xlsx, 5-5-2.xlsx",
     "answer": "班级1: 2门; 班级2: 0门; 班级3: 0门"
   },
   {
-    "id": 244,
+    "id": 253,
     "question": "查询每个班级中女生人数及该班级的课程数量，按班级ID排序。",
     "concepts": ["分组", "聚合", "连接"],
     "file_name": "5-5-1.xlsx, 5-5-2.xlsx",
     "answer": "班级1: 女生3人, 7门课程; 班级2: 女生4人, 7门课程; 班级3: 女生3人, 6门课程"
   },
   {
-    "id": 245,
+    "id": 254,
     "question": "找出年龄大于18岁的学生姓名、班级ID，以及他们所在班级的所有课程名称。",
     "concepts": ["连接", "筛选", "聚合"],
     "file_name": "5-5-1.xlsx, 5-5-2.xlsx",
     "answer": "班级2的所有学生（7人）: 陈思涵、赵子轩、吴婉婷、陈睿哲、何梦瑶、朱文轩、胡静雅，课程包括英语、生物、政治、音乐、心理学、哲学、教育学"
   },
   {
-    "id": 246,
+    "id": 255,
     "question": "查询每个产品类别对应的总金额，并按销售额从高到低排序。",
     "concepts": ["连接", "分组", "聚合", "排序"],
     "file_name": "5-6-1.xlsx, 5-6-2.xlsx",
     "answer": "家电: 28500; 电子产品: 24000;家具: 12300; 文化用品: 70"
   },
   {
-    "id": 247,
+    "id": 256,
     "question": "查询总金额额超过2000的订单对应的产品名称、类别和总金额，并按总金额降序排列。",
     "concepts": ["连接", "筛选", "排序"],
     "file_name": "5-6-1.xlsx, 5-6-2.xlsx",
     "answer": "床(家具, 2500), 平板电脑(电子产品, 3000), 洗衣机(家具, 3500),空调(家电, 4000), 冰箱(家电, 4500), 智能手机(电子产品, 5000), 笔记本电脑(电子产品, 8000), 笔记本电脑(电子产品, 8000), 电视机(家电, 12000)"
   },
   {
-    "id": 248,
+    "id": 257,
     "question": "查询每个产品类别中的总订单数量，并按数量从高到低排序。",
     "concepts": ["连接", "分组", "聚合", "排序"],
     "file_name": "5-6-1.xlsx, 5-6-2.xlsx",
     "answer": "家电: 7; 家具: 8; 电子产品: 4; 文化用品: 2"
   },
   {
-    "id": 249,
+    "id": 258,
     "question": "查询每个产品类别中总销售额最高的产品名称、类别和总金额。",
     "concepts": ["连接", "分组", "聚合", "排序"],
     "file_name": "5-6-1.xlsx, 5-6-2.xlsx",
     "answer": "家电: 电视机, 12000; 家具: 沙发, 3000; 电子产品: 笔记本电脑, 8000 ; 文化用品: 文具, 50"
   },
   {
-    "id": 250,
+    "id": 259,
     "question": "查询总金额最高的前3个产品的名称、类别和总金额。",
     "concepts": ["连接", "分组", "聚合", "排序", "限制"],
     "file_name": "5-6-1.xlsx, 5-6-2.xlsx",
     "answer": "电视机(家电, 12000), 笔记本电脑(电子产品, 8000), 笔记本电脑(电子产品, 8000)"
   },
   {
-    "id": 251,
+    "id": 260,
     "question": "查询每个部门的员工总数。",
     "concepts": ["连接", "聚合"],
     "file_name": "5-7-1.xlsx,5-7-2.xlsx",
     "answer": "销售部:7, 工程部:7, 设计部:6"
   },
   {
-    "id": 252,
+    "id": 261,
     "question": "查询部门经理的总人数。",
     "concepts": ["连接", "筛选", "去重"],
     "file_name": "5-7-1.xlsx,5-7-2.xlsx",
     "answer": "10"
   },
   {
-    "id": 253,
+    "id": 262,
     "question": "查询薪资最高的三个部门以及它们的平均薪资。",
     "concepts": ["连接", "聚合", "排序"],
     "file_name": "5-7-1.xlsx,5-7-2.xlsx",
     "answer": "工程部: 71428.57, 设计部: 66166.67, 销售部: 60714.29"
   },
   {
-    "id": 254,
+    "id": 263,
     "question": "查询所有员工的姓名和他们所在部门的名称。",
     "concepts": ["连接"],
     "file_name": "5-7-1.xlsx,5-7-2.xlsx",
     "answer": "张伟-销售部; 李娜-工程部; 王强-设计部; 赵敏-销售部; 孙丽-工程部; 周凯-设计部; 吴霞-销售部; 郑浩-工程部; 钱峰-设计部; 陈静-销售部; 林涛-工程部; 黄悦-设计部; 何洋-销售部; 高洁-工程部; 郭雷-设计部; 马云-销售部; 朱莉-工程部; 秦风-设计部; 许晴-销售部; 胡斌-工程部"
   },
   {
-    "id": 255,
+    "id": 264,
     "question": "查询每个部门的项目数量和该部门员工的平均薪资。",
     "concepts": ["分组", "聚合", "连接"],
     "file_name": "5-7-1.xlsx, 5-7-3.xlsx",
     "answer": "销售部: 7个项目, 平均薪资60714.29; 工程部: 7个项目, 平均薪资71428.57; 设计部: 6个项目, 平均薪资66166.67"
   },
   {
-    "id": 256,
+    "id": 265,
     "question": "查询每个项目经理负责的项目数量，以及项目经理的姓名和职位。",
     "concepts": ["连接", "分组", "聚合"],
     "file_name": "5-7-1.xlsx, 5-7-3.xlsx",
     "answer": "张伟(经理): 1个项目; 李娜(工程师): 1个项目; 赵敏(销售代表): 1个项目; 吴霞(销售主管): 1个项目; 郑浩(技术主管): 1个项目; 陈静(客户经理): 1个项目; 黄悦(高级设计师): 1个项目; 吴霞(销售主管): 1个项目; 朱莉(系统工程师): 1个项目; 林涛(软件工程师): 2个项目; 黄悦(平面设计师): 1个项目; 高洁(硬件工程师): 1个项目; 马云(区域经理): 1个项目; 秦风(创意总监): 1个项目"
   },
   {
-    "id": 257,
+    "id": 266,
     "question": "查询每个部门中负责项目最多的项目经理的姓名、职位和项目数量。",
     "concepts": ["连接", "分组", "聚合", "排序"],
     "file_name": "5-7-1.xlsx, 5-7-3.xlsx",
     "answer": "工程部: 林涛(软件工程师), 2个项目;"
   },
   {
-    "id": 258,
+    "id": 267,
     "question": "查询薪资高于部门平均薪资的员工所负责的项目名称和项目ID。",
     "concepts": ["连接", "子查询", "筛选"],
     "file_name": "5-7-1.xlsx, 5-7-3.xlsx",
     "answer": "项目A(ID1), 项目B(ID8),项目C(ID3), 项目E(ID5), 项目F(ID6), 项目H(ID8), 项目L(ID12), 项目P(ID16)"
   },
   {
-    "id": 259,
+    "id": 268,
     "question": "查询2023年内结束的项目数量，以及这些项目的部门名称和项目经理姓名。",
     "concepts": ["连接", "筛选", "聚合"],
     "file_name": "5-7-1.xlsx, 5-7-2.xlsx, 5-7-3.xlsx",
     "answer": "2023年结束的项目数量: 7; 销售部: 项目A(张伟), 项目D(吴霞), 项目G(马云); 工程部: 项目B(郑浩), 项目E(孙丽); 设计部: 项目C(秦风), 项目F(钱峰)"
   },
   {
-    "id": 260,
+    "id": 269,
     "question": "查询每个部门中薪资最高的员工姓名、职位、薪资，以及该部门的项目数量。",
     "concepts": ["连接", "分组", "聚合", "排序"],
     "file_name": "5-7-1.xlsx, 5-7-2.xlsx, 5-7-3.xlsx",
     "answer": "销售部: 张伟(经理), 80000, 7个项目; 工程部: 郑浩(技术主管), 78000, 7个项目; 设计部: 秦风(创意总监), 76000, 6个项目"
   },
   {
-    "id": 261,
+    "id": 270,
     "question": "查询每个部门中项目数量超过5个的部门名称，以及该部门员工的平均薪资。",
     "concepts": ["连接", "分组", "聚合", "筛选"],
     "file_name": "5-7-1.xlsx, 5-7-2.xlsx, 5-7-3.xlsx",
     "answer": "销售部: 60714.29; 工程部: 71428.57; 设计部: 66166.67"
   },
   {
-    "id": 262,
+    "id": 271,
     "question": "查询每个员工负责的项目数量，以及该员工的职位和薪资。",
     "concepts": ["连接", "分组", "聚合"],
     "file_name": "5-7-1.xlsx, 5-7-3.xlsx",
     "answer": "张伟(经理, 80000): 1个项目; 李娜(工程师, 70000): 1个项目; 王强(设计师, 65000): 1个项目; 赵敏(销售代表, 55000): 1个项目; 孙丽(高级工程师, 75000): 1个项目; 周凯(初级设计师, 60000): 1个项目; 吴霞(销售主管, 60000): 1个项目; 郑浩(技术主管, 78000): 1个项目; 钱峰(高级设计师, 70000): 1个项目; 陈静(客户经理, 58000): 1个项目; 林涛(软件工程师, 68000): 2个项目; 黄悦(平面设计师, 62000): 1个项目; 何洋(市场专员, 52000): 1个项目; 高洁(硬件工程师, 66000): 1个项目; 郭雷(UI设计师, 64000): 1个项目; 马云(区域经理, 72000): 1个项目; 朱莉(系统工程师, 74000): 1个项目; 秦风(创意总监, 76000): 1个项目; 许晴(销售助理, 48000): 1个项目; 胡斌(网络工程师, 69000): 0个项目"
   },
   {
-    "id": 263,
+    "id": 272,
     "question": "查询每个部门中项目结束日期最晚的项目名称、结束日期，以及负责该项目的项目经理姓名。",
     "concepts": ["连接", "分组", "聚合", "排序"],
     "file_name": "5-7-1.xlsx, 5-7-2.xlsx, 5-7-3.xlsx",
     "answer": "销售部: 项目S(2024-12-31), 许晴; 工程部: 项目T(2025-01-31), 林涛; 设计部: 项目R(2024-11-30), 周凯"
   },
   {
-    "id": 264,
+    "id": 273,
     "question": "查询已完成订单的客户名称和订单总金额，按总金额降序排列",
     "concepts": ["连接", "筛选", "排序", "聚合"],
     "file_name": "5-8-1.xlsx,5-8-2.xlsx",
     "answer": "泉州制造有限公司:30000, 无锡机械有限公司:27000, 南京网络有限公司:25000, 杭州软件有限公司:22000, 北京科技有限公司:20000"
   },
   {
-    "id": 265,
+    "id": 274,
     "question": "查询订单状态为'已发货'的客户名称、订单日期和总金额",
     "concepts": ["连接", "筛选", "聚合"],
     "file_name": "5-8-1.xlsx,5-8-2.xlsx",
     "answer": "上海贸易有限公司(2023/1/2,25000), 南京网络有限公司(2023/1/6,27000), 天津物流有限公司(2023/1/10,30000), 宁波电器有限公司(2023/1/14,15000), 温州贸易有限公司(2023/1/18,18000)"
   },
   {
-    "id": 266,
+    "id": 275,
     "question": "查询单价最高的产品所在订单的订单ID、产品ID和订单状态",
     "concepts": ["连接", "筛选", "聚合"],
     "file_name": "5-8-2.xlsx,5-8-3.xlsx",
     "answer": "订单1(产品ID1,已完成), 订单11(产品ID1,待付款)"
   },
   {
-    "id": 267,
+    "id": 276,
     "question": "查询总小计最高的订单ID及其总金额",
     "concepts": ["连接", "聚合"],
     "file_name": "5-8-2.xlsx,5-8-3.xlsx",
     "answer": "订单1:27000, 订单13:20000"
   },
   {
-    "id": 268,
+    "id": 277,
     "question": "查询订单总金额最高的前3个订单的客户名称和总金额",
     "concepts": ["连接", "排序", "聚合"],
     "file_name": "5-8-1.xlsx,5-8-2.xlsx",
     "answer": "天津物流有限公司:30000, 泉州制造有限公司:30000, 南京网络有限公司:27000"
   },
   {
-    "id": 269,
+    "id": 278,
     "question": "查询订单状态为'待付款'的客户名称和总金额",
     "concepts": ["连接", "筛选", "聚合"],
     "file_name": "5-8-1.xlsx,5-8-2.xlsx",
     "answer": "广州制造有限公司:30000, 武汉医疗有限公司:30000, 天津物流有限公司:30000 "
   },
   {
-    "id": 270,
+    "id": 279,
     "question": "查询每个订单的总数量（sum(数量)），按总数量降序排列",
     "concepts": ["连接", "聚合", "排序"],
     "file_name": "5-8-2.xlsx,5-8-3.xlsx",
     "answer": "订单6:15, 订单16:15, 订单10:6, 订单20:6, 订单2:5, 订单3:5, 订单5:5, 订单9:5, 订单13:5, 订单14:5, 订单17:5, 订单19:5, 订单1:3, 订单4:3, 订单7:3, 订单8:3, 订单11:3, 订单12:3, 订单15:3, 订单18:3"
   },
   {
-    "id": 271,
+    "id": 280,
     "question": "查询订单总小计与订单总金额的差异（前3大差异）",
     "concepts": ["连接", "聚合", "排序"],
     "file_name": "5-8-2.xlsx,5-8-3.xlsx",
     "answer": "订单6:-26550, 订单16:-24400, 订单3:-12000"
   },
   {
-    "id": 272,
+    "id": 281,
     "question": "查询数量大于5的产品对应的订单ID、产品ID和数量",
     "concepts": ["连接", "筛选"],
     "file_name": "5-8-2.xlsx,5-8-3.xlsx",
     "answer": "订单6-产品ID12-10, 订单16-产品ID11-10"
   },
   {
-    "id": 273,
+    "id": 282,
     "question": "查询每个客户购买的产品总数量",
     "concepts": ["连接", "聚合"],
     "file_name": "5-8-1.xlsx,5-8-2.xlsx,5-8-3.xlsx",
     "answer": "北京科技有限公司:3, 上海贸易有限公司:5, 广州制造有限公司:5, 深圳电子有限公司:3, 杭州软件有限公司:5,南京网络有限公司:15, 武汉医疗有限公司:3, 成都教育有限公司:3, 西安旅游有限公司:5, 天津物流有限公司:6,重庆餐饮有限公司:3, 苏州纺织有限公司:3, 无锡机械有限公司:5, 宁波电器有限公司:5, 厦门建筑有限公司:3,福州金融有限公司:15, 泉州制造有限公司:5, 温州贸易有限公司:3, 绍兴旅游有限公司:5, 嘉兴物流有限公司:6"
   },
   {
-    "id": 274,
+    "id": 283,
     "question": "查询购买数量最多的产品名称和其总购买数量。",
     "concepts": ["连接", "聚合", "排序"],
     "file_name": "5-6-1.xlsx, 5-6-2.xlsx",
     "answer": "电视机,2"
-  },
-  {
-    "id": 275,
-    "question": "查询2023年GDP超过100000亿元的省份及其GDP。",
-    "concepts": ["筛选"],
-    "file_name": "1-3.xlsx",
-    "answer": "江苏省, 128222.2; 广东省, 135673.2"
-  },
-  {
-    "id": 276,
-    "question": "查询2014年到2023年GDP增长额（2023减2014）最大的省份。",
-    "concepts": ["算术运算", "排序"],
-    "file_name": "1-3.xlsx",
-    "answer": "广东省"
-  },
-  {
-    "id": 277,
-    "question": "查询2023年GDP低于全国平均值的省份数量。",
-    "concepts": ["求均值", "筛选", "计数"],
-    "file_name": "1-3.xlsx",
-    "answer": "18"
-  },
-  {
-    "id": 278,
-    "question": "计算每一天的总销售额，并列出销售额最高的日期。",
-    "concepts": ["分组", "求和", "排序"],
-    "file_name": "1-4.xlsx",
-    "answer": "2025-06-27"
-  },
-  {
-      "id": 279,
-      "question": "计算每个供应商的已批准采购单数量。",
-      "concepts": ["分组", "计数"],
-      "file_name": "1-5.xlsx",
-      "answer": "本地经销商: 5; 京东: 3; 阿里: 2"
-  },
-  {
-      "id": 280,
-      "question": "统计每个责任部门的反馈记录数量。",
-      "concepts": ["分组", "计数"],
-      "file_name": "1-7.xlsx",
-      "answer": "物流部: 3, 人力资源部: 7, 研发部: 8, 质检部: 2, 售后部: 1, 财务部: 2, 市场部: 2"
   }
 ]
